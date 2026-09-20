@@ -1,0 +1,43 @@
+{
+  "Landview Lighthouse": {
+    "source":"https://fallout.fandom.com/wiki/Landview_Lighthouse",
+    "credit":"Nukapedia / Fallout Wiki contributors", "license":"CC BY-SA 3.0", "reviewed":"2026-09-19",
+    "bobblehead":["Check the highest landing of the lighthouse's internal stairs.","In the keeper's house, go to the upstairs bedroom and inspect the desk between the terminal and typewriter."],
+    "magazine":["Search the table in the sheltered picnic area north of the lighthouse.","Check the dining table inside the keeper's house."]
+  },
+  "Alpine River Cabins": {
+    "source":"https://fallout.fandom.com/wiki/Alpine_River_Cabins",
+    "credit":"Nukapedia / Fallout Wiki contributors", "license":"CC BY-SA 3.0", "reviewed":"2026-09-19",
+    "bobblehead":["In the southeastern cabin, inspect the top bunk beside the safe; this is the cabin containing Rita's holotape.","In the southern cabin with the bear rug, look underneath a bunk bed."],
+    "magazine":["At the effects-control treehouse south of the cabins, check the round table near the sleeping bag.","In the southwestern cabin with the bear rug, inspect the bottom bunk."]
+  },
+  "Tyler County Fairgrounds": {
+    "source":"https://fallout.fandom.com/wiki/Tyler_County_Fairgrounds",
+    "credit":"Nukapedia / Fallout Wiki contributors", "license":"CC BY-SA 3.0", "reviewed":"2026-09-19",
+    "bobblehead":["Inspect the long table near the front of Tyler County Scare.","Look on the metal shelves inside the giant Nuka-Cola bottle stand.","At the southern arcade's three Hoop Shots games, check the token dispenser."],
+    "magazine":["Look on a wooden barrel inside the long metal barn near the large slide.","Inspect the prize booth shelf with the toy rocket, beneath the green-and-white canopy.","Check the portable toilet by the Apples, Hotdogs stall east of the arcade."]
+  },
+  "High Knob Lookout": {
+    "source":"https://fallout.fandom.com/wiki/High_Knob_Lookout",
+    "credit":"Nukapedia / Fallout Wiki contributors", "license":"CC BY-SA 3.0", "reviewed":"2026-09-19",
+    "bobblehead":["Inspect the tower's stone wall beside the second ascending staircase."],
+    "magazine":["Check the wooden crate east of the locked trailer.","Look on the table with the orange radio to the left of the fire tower."]
+  },
+  "Stony Man Lookout": {
+    "source":"https://fallout.fandom.com/wiki/Stony_Man_Lookout",
+    "credit":"Nukapedia / Fallout Wiki contributors", "license":"CC BY-SA 3.0", "reviewed":"2026-09-19",
+    "bobblehead":["Inspect the bloodstained post near the ramp to the northwestern shack."]
+  },
+  "Dino Peaks Mini Golf": {
+    "source":"https://fallout.fandom.com/wiki/Dino_Peaks_Mini_Golf",
+    "credit":"Nukapedia / Fallout Wiki contributors", "license":"CC BY-SA 3.0", "reviewed":"2026-09-19",
+    "bobblehead":["Look up into the rafters of the groundskeeper's shack on the north side."],
+    "magazine":["Check the counter in the golf-club rental shop at the entrance."]
+  },
+  "Pleasant Valley Cabins": {
+    "source":"https://fallout.fandom.com/wiki/Pleasant_Valley_cabins",
+    "credit":"Nukapedia / Fallout Wiki contributors", "license":"CC BY-SA 3.0", "reviewed":"2026-09-19",
+    "bobblehead":["Near David's room on the second floor, check the top of the HAM radio."],
+    "magazine":["At the ruined eastern lodge by the bus stop, look on the double bed's headboard.","On the southwestern upper lodge patio, inspect the lectern between the red chairs.","In the lodge beside the arena, look on the mattress in the room with a rug, near the green-carpeted terminal room.","On the southwestern blue mansion's deck, check the low table between red stools.","In the yellow-door cabin, inspect the coffee table near the blue couch and mounted brahmin heads.","At the northwestern red-door cabin by the yellow pickup, look on the metal table below the raider's body."]
+  }
+}
