@@ -6,7 +6,7 @@
   <meta name="description" content="An independently made Fallout 76 field atlas. Explore sourced collectible spawns and keep an encrypted field journal on your own device.">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>Appalachia · Field Atlas v3.2 for Fallout 76</title>
+  <title>Appalachia · Field Atlas v3.3 for Fallout 76</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="styles.css">
@@ -24,14 +24,14 @@
 <main class="workspace">
   <aside id="explorer-panel" class="explorer" aria-label="Find locations">
     <div class="explorer-intro"><p class="eyebrow">YOUR NEXT DISCOVERY</p><h1>Out there, somewhere.</h1><p>A field companion for the curious wanderer.</p></div>
-    <div class="search-wrap"><label class="sr-only" for="search">Search items, places, notes or form IDs</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Bobbleheads, places, notes…" autocomplete="off"><kbd>/</kbd></div>
-    <div class="scope-row"><label for="space">Map / interior</label><select id="space"><option value="2480661">Appalachia</option></select></div>
+    <div class="search-wrap"><label class="sr-only" for="search">Search items, places, notes or form IDs</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Bobbleheads, places, notes…" autocomplete="off"><kbd title="Control or Command plus slash">Ctrl /</kbd></div>
+    <div class="scope-row"><label for="world">World Map</label><select id="world"></select></div><div class="scope-row"><label for="space">Interior / expedition area</label><select id="space"></select></div><p id="region-note" class="form-help"></p>
     <div class="background-settings"><label for="background">Map background</label><select id="background"><option value="satellite">Satellite / terrain</option><option value="game">Illustrated game map</option><option value="military">Military map</option><option value="native">Terrain / source quality (~30 MB)</option></select><p id="background-note" class="form-help"></p><label for="background-opacity">Background visibility <output id="opacity-value">100%</output></label><input id="background-opacity" type="range" min="20" max="100" value="100" step="5"></div>
     <div class="section-label"><h2>What are you looking for?</h2><button id="all-layers" class="text-button">All layers</button></div>
     <div class="location-toggles"><button id="all-locations" class="text-button" aria-pressed="false">Show all locations</button><label><input id="location-labels" type="checkbox"> Location labels</label></div>
     <div id="categories" class="categories"></div>
     <div class="journal-filters"><label class="sr-only" for="view">Progress filter</label><select id="view"><option value="all">All discoveries</option><option value="stars">Starred places &amp; items</option><option value="categories">Starred item categories</option><option value="unchecked">Not checked off</option><option value="checked">Checked off</option></select><label class="sr-only" for="tag-filter">Tag filter</label><select id="tag-filter"><option value="">Any tag</option></select></div>
-    <label class="checkline"><input id="guided-only" type="checkbox"> With written area guide</label>
+    <fieldset class="evidence-filters" aria-describedby="evidence-help"><legend>Show locations with</legend><label class="checkline"><input id="photos-only" type="checkbox"> Screenshots (bright blue outline)</label><label class="checkline"><input id="guided-only" type="checkbox"> Written directions (yellow outline)</label><p id="evidence-help">Select either or both. Both shows locations with screenshots or directions, including locations with both. Leave unchecked to show all.</p></fieldset>
     <details class="community-controls"><summary>Sources & community display</summary><p class="source-legend"><span class="legend-photo">Blue: spot photo</span><span class="legend-text">Yellow: written guide</span>Both outlines: both available. No outline: coordinate/map data only. Area guides are labeled; map crops are not spot photos.</p><button id="badge-preview" class="text-button" type="button">Preview photo & guide outlines</button><label><input id="community-comments" type="checkbox" checked> Community comments</label><label><input id="community-stars" type="checkbox" checked> Community stars</label><label><input id="community-tags" type="checkbox" checked> Community tags</label></details>
     <div class="results-heading"><h2 id="result-count" aria-live="polite">Loading…</h2><button id="fit-results" class="text-button">Fit results ↗</button></div>
     <div id="results" class="results" aria-label="Search results"></div>
@@ -43,11 +43,11 @@
     <div class="map-top"><div class="map-title"><span class="eyebrow">EXPLORING</span><strong id="map-name">Appalachia</strong></div><div class="map-tools"><button id="map-key" class="map-button">Map key</button><button id="add-marker" class="map-button">＋ Add marker</button></div></div>
     <div class="map-bottom"><div class="map-caption"><span>Potential spawns · availability varies</span></div><button id="reset-map" class="map-button" aria-label="Show the entire current map">⤢ Full map</button></div>
     <div id="map-message" role="status" hidden></div>
-    <div class="map-credit">Imagery & game data © Bethesda / ZeniMax · <a href="https://github.com/AHeroicLlama/Mappalachia" target="_blank" rel="noopener noreferrer">Mappalachia / AHeroicLlama</a></div>
+    <div class="map-credit">Game assets © Bethesda / ZeniMax · Maps prepared by <a href="https://github.com/AHeroicLlama/Mappalachia" target="_blank" rel="noopener noreferrer">Mappalachia / AHeroicLlama</a></div>
   </section>
   <button id="restore-detail" class="restore-detail" hidden>Open notes</button>
   <aside id="detail" class="detail" aria-label="Selected discovery" hidden></aside>
-</main>
+</main><footer class="site-license">Original editorial content: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> · except where otherwise noted. <a href="LICENSES.html">Licenses & credits</a></footer>
 <div id="toast" role="status" aria-live="polite" hidden></div>
 <dialog id="modal" aria-labelledby="modal-title"><button id="modal-close" class="close-button" aria-label="Close dialog">×</button><div id="modal-content"></div></dialog>
 <noscript>This atlas needs JavaScript for its map and encrypted local profiles. Source and setup documentation are included in the download.</noscript>

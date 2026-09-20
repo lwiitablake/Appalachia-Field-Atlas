@@ -1,3 +1,4 @@
+import {zoomButton} from './photo-viewer.js';
 export function swipeDirection(dx,dy){return Math.abs(dx)>=50&&Math.abs(dx)>Math.abs(dy)*1.5?(dx<0?1:-1):0;}
 export function shouldMinimize(dx,dy){return dy>=75&&dy>Math.abs(dx)*1.5;}
 export function dotIndices(total,current,max=7){const start=Math.max(0,Math.min(total-max,current-Math.floor(max/2)));return Array.from({length:Math.min(total,max)},(_,i)=>start+i);}
@@ -12,7 +13,7 @@ export function mountGallery(root,photos,fallback){
   const credit=document.createElement('a');credit.href=photo.source;credit.target='_blank';credit.rel='noopener noreferrer';credit.textContent=photo.credit+' · Source ↗';
   caption.append(credit,document.createElement('br'),document.createTextNode(photo.license));
   if(photo.scope){const scope=document.createElement('p');scope.textContent=photo.scope;caption.append(scope);}
-  figure.append(img,caption);root.append(figure);
+  figure.append(img,caption);root.append(figure);zoomButton(root,photo.path,photo.alt);
   if(images.length<2)return;
   const controls=document.createElement('div');controls.className='gallery-controls';
   const previous=document.createElement('button'),next=document.createElement('button'),dots=document.createElement('div'),status=document.createElement('span');

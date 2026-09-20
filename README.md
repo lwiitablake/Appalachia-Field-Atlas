@@ -1,4 +1,4 @@
-# Appalachia Field Atlas — v3.2
+# Appalachia Field Atlas — v3.3
 
 A static, independently made Fallout 76 web app for GitHub Pages. Search sourced loot positions, explore maps and interiors, and keep an encrypted journal in your own browser.
 
@@ -120,3 +120,7 @@ Tests cover data identities/counts, coordinate round-trips, filters, encrypted p
 Original app code is supplied under GPL-3.0-only. Wiki guide adaptations retain CC BY-SA 3.0. Leaflet retains BSD-2-Clause. Bethesda retains rights in game assets. This is an unofficial fan project, not affiliated with or endorsed by Bethesda or ZeniMax.
 
 See V3.2-CHANGES.md for this release.
+
+See [V3.3-CHANGES.md](V3.3-CHANGES.md) for this release and installation instructions.
+
+See [V3.3-CHANGES.md](V3.3-CHANGES.md) for this release and installation instructions.

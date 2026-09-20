@@ -116,3 +116,15 @@ See [V3.1-CHANGES.md](V3.1-CHANGES.md) for direct links to Ghoul Earth (reviewed
 ## v3.2 embedded screenshots
 
 See [V3.2-CHANGES.md](V3.2-CHANGES.md#screenshot-rights-and-scope) for image-specific direct links, uploader credits, historical scope, modifications and fair-use rationale. These game screenshots are not covered by the prose Creative Commons license.
+
+## v3.2 embedded screenshots
+
+See [V3.2-CHANGES.md](V3.2-CHANGES.md#screenshot-rights-and-scope) for image-specific direct links, uploader credits, historical scope, modifications and fair-use rationale. These game screenshots are not covered by the prose Creative Commons license.
+
+## Version 3.3
+
+[Licensing scope and visible credits](LICENSES.html) · [Regional derivation, coordinate guidance and sources](V3.3-CHANGES.md). Existing third-party rights are unchanged.
+
+## Version 3.3
+
+[Licensing scope and visible credits](LICENSES.html) · [Regional derivation, coordinate guidance and sources](V3.3-CHANGES.md). Existing third-party rights are unchanged.
