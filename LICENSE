@@ -1,0 +1,21 @@
+Appalachia Field Atlas — original application source
+SPDX-License-Identifier: GPL-3.0-only
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+The complete license is included in licenses/GPL-3.0.txt.
+
+Separately identified materials retain their own terms:
+- Leaflet: BSD-2-Clause; see licenses/Leaflet-BSD-2-Clause.txt.
+- data/guides.json adaptations: CC BY-SA 3.0; see licenses/CC-BY-SA-3.0.md.
+- Bethesda/ZeniMax game imagery and data: rights reserved; upstream distributes
+  these on a stated fair-use basis, not under a grant of Bethesda rights via GPL.
+  See SOURCES.md for attribution, transformations and the documented use basis.
+
+This is an unofficial fan project, unaffiliated with Bethesda or ZeniMax.
