@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const {version}=JSON.parse(fs.readFileSync(path.join(root,'package.json')));
+const runtime=`assets/runtime-${version}`;
+fs.mkdirSync(path.join(root,runtime),{recursive:true});
+fs.writeFileSync(path.join(root,'release.js'),`export const VERSION='${version}';\n`);
+for(const file of fs.readdirSync(root).filter(n=>n.endsWith('.js')))fs.copyFileSync(path.join(root,file),path.join(root,runtime,file));
+fs.copyFileSync(path.join(root,'styles.css'),path.join(root,runtime,'styles.css'));
+let html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+html=html.replace(/href="(?:assets\/runtime-[^"]+\/)?styles.css"/,`href="${runtime}/styles.css"`).replace(/src="(?:assets\/runtime-[^"]+\/)?app.js"/,`src="${runtime}/app.js"`).replace(/Field Atlas v[\d.]+ for/,`Field Atlas v${version} for`).replace(/V[\d.]+ · Loading field data/,`V${version} · Loading field data`);
+fs.writeFileSync(path.join(root,'index.html'),html);console.log('Built release',version);

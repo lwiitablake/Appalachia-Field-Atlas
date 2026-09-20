@@ -6,26 +6,26 @@
   <meta name="description" content="An independently made Fallout 76 field atlas. Explore sourced collectible spawns and keep an encrypted field journal on your own device.">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>Appalachia · Field Atlas v3.3 for Fallout 76</title>
+  <title>Appalachia · Field Atlas v3.3.1 for Fallout 76</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="vendor/leaflet.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/runtime-3.3.1/styles.css">
   <script src="vendor/leaflet.js" defer></script>
-  <script src="app.js" type="module"></script>
+  <script src="assets/runtime-3.3.1/app.js" type="module"></script>
 </head>
-<body>
+<body class="atlas-app">
 <a class="skip-link" href="#search">Skip to search</a>
 <header class="masthead">
   <a class="brand" href="./" aria-label="Appalachia Field Atlas home"><span class="brand-icon" aria-hidden="true">A<span>76</span></span><span><strong>APPALACHIA</strong><small>FIELD ATLAS <i>/</i> FALLOUT 76</small></span></a>
-  <div class="edition"><span class="live-dot"></span><span id="edition">Loading field data…</span></div>
-  <nav aria-label="Main navigation"><button id="help-button" class="quiet">Field guide</button><button id="sources-button" class="quiet">Sources</button><button id="login-button">Log in</button><button id="signup-button" class="primary">Sign up</button><button id="profile-button" hidden></button></nav>
+  <div class="edition"><span class="live-dot"></span><span id="edition">V3.3.1 · Loading field data…</span></div>
+  <nav aria-label="Main navigation"><a class="credits-link" href="LICENSES.html">Map credits & licenses</a><button id="help-button" class="quiet">Field guide</button><button id="sources-button" class="quiet">Sources</button><button id="login-button">Log in</button><button id="signup-button" class="primary">Sign up</button><button id="profile-button" hidden></button></nav>
 </header>
 <button id="mobile-explorer" class="mobile-explorer" aria-expanded="false" aria-controls="explorer-panel">Search & layers</button>
 <main class="workspace">
   <aside id="explorer-panel" class="explorer" aria-label="Find locations">
     <div class="explorer-intro"><p class="eyebrow">YOUR NEXT DISCOVERY</p><h1>Out there, somewhere.</h1><p>A field companion for the curious wanderer.</p></div>
     <div class="search-wrap"><label class="sr-only" for="search">Search items, places, notes or form IDs</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Bobbleheads, places, notes…" autocomplete="off"><kbd title="Control or Command plus slash">Ctrl /</kbd></div>
-    <div class="scope-row"><label for="world">World Map</label><select id="world"></select></div><div class="scope-row"><label for="space">Interior / expedition area</label><select id="space"></select></div><p id="region-note" class="form-help"></p>
+    <div class="scope-row"><label for="world">World Map</label><select id="world"></select></div><div class="scope-row" id="region-row"><label for="region">Appalachia region</label><select id="region"></select></div><div class="scope-row"><label for="space">Interior / expedition area</label><select id="space"></select></div><p id="region-note" class="form-help"></p>
     <div class="background-settings"><label for="background">Map background</label><select id="background"><option value="satellite">Satellite / terrain</option><option value="game">Illustrated game map</option><option value="military">Military map</option><option value="native">Terrain / source quality (~30 MB)</option></select><p id="background-note" class="form-help"></p><label for="background-opacity">Background visibility <output id="opacity-value">100%</output></label><input id="background-opacity" type="range" min="20" max="100" value="100" step="5"></div>
     <div class="section-label"><h2>What are you looking for?</h2><button id="all-layers" class="text-button">All layers</button></div>
     <div class="location-toggles"><button id="all-locations" class="text-button" aria-pressed="false">Show all locations</button><label><input id="location-labels" type="checkbox"> Location labels</label></div>
@@ -43,7 +43,7 @@
     <div class="map-top"><div class="map-title"><span class="eyebrow">EXPLORING</span><strong id="map-name">Appalachia</strong></div><div class="map-tools"><button id="map-key" class="map-button">Map key</button><button id="add-marker" class="map-button">＋ Add marker</button></div></div>
     <div class="map-bottom"><div class="map-caption"><span>Potential spawns · availability varies</span></div><button id="reset-map" class="map-button" aria-label="Show the entire current map">⤢ Full map</button></div>
     <div id="map-message" role="status" hidden></div>
-    <div class="map-credit">Game assets © Bethesda / ZeniMax · Maps prepared by <a href="https://github.com/AHeroicLlama/Mappalachia" target="_blank" rel="noopener noreferrer">Mappalachia / AHeroicLlama</a></div>
+    <div class="map-credit">Game assets © <a href="https://fallout.bethesda.net/" target="_blank" rel="noopener noreferrer">Bethesda / ZeniMax</a> · Maps prepared by <a href="https://github.com/AHeroicLlama/Mappalachia" target="_blank" rel="noopener noreferrer">Mappalachia / AHeroicLlama</a></div>
   </section>
   <button id="restore-detail" class="restore-detail" hidden>Open notes</button>
   <aside id="detail" class="detail" aria-label="Selected discovery" hidden></aside>

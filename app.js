@@ -1,3 +1,4 @@
+import {VERSION} from './release.js';
 import {within,nearbyRecords} from './navigation.js';
 import {zoomButton} from './photo-viewer.js';
 import {mountGallery,shouldMinimize} from './gallery.js';
@@ -92,7 +93,7 @@ function categoryUI(){
 }
 function currentRegion(){return regions.find(r=>r.id===regionId);}
 function fillSpaces(){
- const r=currentRegion();if(!r)return;
+ const r=currentRegion();if(!r)return;$('#region-row').hidden=!r.bounds&&r.id!=='appalachia';if(!$('#region-row').hidden)$('#region').value=regionId;
  const ids=[r.space,...[...new Set(r.interiors)].filter(id=>id!==r.space).sort((a,b)=>atlas.spaces[a].name.localeCompare(atlas.spaces[b].name))];
  $('#space').innerHTML=ids.map(id=>`<option value="${id}">${id===r.space&&id==='2480661'?'Outdoors':esc(atlas.spaces[id].name)}${id!=='2480661'?` (${esc(atlas.spaces[id].editorId)})`:''}</option>`).join('');
  $('#space').value=filters.space;$('#region-note').textContent=r.note||'Full Appalachia map. Regional interior lists use inferred source associations; the complete directory remains available.';
@@ -167,7 +168,7 @@ function renderPins(){
   for(const group of groups.values()){
     if(group.length>1){
       const points=group.map(r=>mapPoint(r,activeSpace()));const center=[points.reduce((s,p)=>s+p[0],0)/points.length,points.reduce((s,p)=>s+p[1],0)/points.length];
-      const cluster=L.marker(center,{keyboard:false,icon:L.divIcon({className:'pin cluster',html:`<span style="--cat:#30483e">${group.length}</span>`,iconSize:[31,31],iconAnchor:[15.5,15.5]})}).addTo(markers);
+      const cluster=L.marker(center,{keyboard:false,icon:L.divIcon({className:`pin cluster ${group.some(r=>evidenceFor(r,guides,details).photos.length)?'has-photo':''} ${group.some(r=>{const e=evidenceFor(r,guides,details);return e.text||e.area;})?'has-text':''}`,html:`<span style="--cat:#30483e">${group.length}</span>`,iconSize:[31,31],iconAnchor:[15.5,15.5]})}).addTo(markers);
       const text=document.createElement('span');text.textContent=`${group.length} discoveries. Click to zoom in; use the result list for individual points.`;cluster.bindTooltip(text);
       cluster.on('click',()=>map.fitBounds(L.latLngBounds(points).pad(.3),{maxZoom:Math.max(2,map.getZoom()+1.5),padding:[50,90]}));continue;
     }
@@ -180,7 +181,7 @@ function renderPins(){
   }
 }
 function selectRecord(r,focus){
-  if(!r)return;if(r.space==='2480661'&&!within(r,currentRegion()?.bounds)){regionId='appalachia';$('#world').value=regionId;fillSpaces();applyRegion();}if(r.space!==filters.space){filters.space=r.space;if(!currentRegion()?.interiors.includes(r.space)&&currentRegion()?.space!==r.space){regionId='directory';$('#world').value=regionId;}fillSpaces();}detailMinimized=false;$('#restore-detail').hidden=true;detailReturn=document.activeElement;selected=r;setMap(r.space);render();
+  if(!r)return;if(r.space==='2480661'&&!within(r,currentRegion()?.bounds)){regionId='appalachia';$('#world').value=currentRegion()?.bounds?'appalachia':regionId;fillSpaces();applyRegion();}if(r.space!==filters.space){filters.space=r.space;if(!currentRegion()?.interiors.includes(r.space)&&currentRegion()?.space!==r.space){regionId='directory';$('#world').value=currentRegion()?.bounds?'appalachia':regionId;}fillSpaces();}detailMinimized=false;$('#restore-detail').hidden=true;detailReturn=document.activeElement;selected=r;setMap(r.space);render();
   map.invalidateSize({animate:false});
   if(focus)map.setView(mapPoint(r,activeSpace()),Math.max(map.getZoom(),r.space==='2480661'?1:0),{animate:!matchMedia('(prefers-reduced-motion: reduce)').matches});
   $('#detail').scrollTop=0;$('#detail-close').focus({preventScroll:true});document.body.classList.remove('explorer-open');$('#mobile-explorer').setAttribute('aria-expanded','false');
@@ -277,12 +278,13 @@ document.addEventListener('click',e=>{
 $('#restore-detail').onclick=()=>{detailMinimized=false;$('#detail').hidden=false;$('#restore-detail').hidden=true;map?.invalidateSize({animate:false});$('#detail-minimize').focus({preventScroll:true});};
 async function start(){
   try{
-    const responses=await Promise.all([fetch('data/atlas.json'),fetch('data/guides.json'),fetch('data/details.json'),fetch('data/community.json'),fetch('site-config.json'),fetch('data/regions.json')]);
+    const responses=await Promise.all([fetch('data/atlas.json?v='+VERSION,{cache:'no-store'}),fetch('data/guides.json?v='+VERSION,{cache:'no-store'}),fetch('data/details.json?v='+VERSION,{cache:'no-store'}),fetch('data/community.json?v='+VERSION,{cache:'no-store'}),fetch('site-config.json?v='+VERSION,{cache:'no-store'}),fetch('data/regions.json?v='+VERSION,{cache:'no-store'})]);
     if(responses.some(r=>!r.ok))throw Error('The atlas files could not be loaded.');
     [atlas,guides,details,community,siteConfig,regions]=await Promise.all(responses.map(r=>r.json()));
     if(vault)vault.validate=p=>{validateProgress(p);if(p.custom.some(r=>!atlas.spaces[r.space]))throw Error('This journal contains a personal marker for a map absent from this atlas edition. Use the matching edition to restore it.');return p;};
-    $('#edition').textContent=`V3.3 · ${atlas.meta.released} / ${atlas.meta.gameVersion}`;
-    $('#world').innerHTML=regions.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');fillSpaces();
+    $('#edition').textContent=`V${VERSION} · ${atlas.meta.released} / ${atlas.meta.gameVersion}`;
+    $('#world').innerHTML=['appalachia','atlantic-city','the-pitt','directory'].map(id=>{const r=regions.find(r=>r.id===id);return `<option value="${id}">${id==='appalachia'?'Appalachia':esc(r.name)}</option>`;}).join('');
+    $('#region').innerHTML=regions.filter(r=>r.id==='appalachia'||r.bounds).map(r=>`<option value="${r.id}">${r.id==='appalachia'?'All Appalachia regions':esc(r.name)}</option>`).join('');fillSpaces();
     map=L.map('map',{crs:L.CRS.Simple,minZoom:-4,maxZoom:5,zoomSnap:.25,preferCanvas:true,attributionControl:true});
     map.attributionControl.setPrefix(external('https://leafletjs.com/','Leaflet'));
     markers=L.layerGroup().addTo(map);setMap(filters.space);
@@ -290,6 +292,7 @@ async function start(){
     map.on('click',e=>{if(adding){adding=false;document.body.classList.remove('adding');$('#add-marker').textContent='＋ Add marker';$('#map-message').hidden=true;addMarkerDialog(e.latlng);}});
     $('#map').addEventListener('keydown',e=>{if(adding&&e.key==='Enter'){e.preventDefault();adding=false;document.body.classList.remove('adding');$('#add-marker').textContent='＋ Add marker';$('#map-message').hidden=true;addMarkerDialog(map.getCenter());}});
     $('#search').oninput=e=>{filters.query=e.target.value;limit=70;render();};
+    $('#region').onchange=e=>{regionId=e.target.value;filters.space='2480661';fillSpaces();setMap(filters.space);applyRegion();limit=70;closeDetail();render();};
     $('#world').onchange=e=>{regionId=e.target.value;filters.space=currentRegion().space;fillSpaces();setMap(filters.space);applyRegion();limit=70;closeDetail();render();};
     $('#space').onchange=e=>{filters.space=e.target.value;setMap(filters.space);applyRegion();limit=70;closeDetail();render();};
     $('#mobile-explorer').onclick=()=>{const open=document.body.classList.toggle('explorer-open');$('#mobile-explorer').setAttribute('aria-expanded',String(open));};
@@ -312,6 +315,6 @@ async function start(){
     document.addEventListener('keydown',e=>{if(e.key==='/'&&(e.ctrlKey||e.metaKey)&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#modal').open){e.preventDefault();document.body.classList.add('explorer-open');$('#mobile-explorer').setAttribute('aria-expanded','true');$('#search').focus();}if(e.key==='Escape'&&adding){adding=false;document.body.classList.remove('adding');$('#add-marker').textContent='＋ Add marker';$('#map-message').hidden=true;}});
     new ResizeObserver(()=>map.invalidateSize({animate:false})).observe($('#map'));
     render();if(storageError)toast(storageError);
-  }catch(e){$('#edition').textContent='V3.3 · Setup incomplete';$('#results').innerHTML=`<p class="empty">${esc(e.message)} Check that data/, vendor/ and assets/ were uploaded as folders beside index.html. V3 also requires data/details.json, data/community.json and site-config.json.</p>`;$('#result-count').textContent='Unable to load atlas';toast('Could not load the atlas. Check the included setup instructions.');console.error(e);}
+  }catch(e){$('#edition').textContent=`V${VERSION} · Setup incomplete`;$('#results').innerHTML=`<p class="empty">${esc(e.message)} Check that data/, vendor/ and assets/ were uploaded as folders beside index.html. V3 also requires data/details.json, data/community.json and site-config.json.</p>`;$('#result-count').textContent='Unable to load atlas';toast('Could not load the atlas. Check the included setup instructions.');console.error(e);}
 }
 start();

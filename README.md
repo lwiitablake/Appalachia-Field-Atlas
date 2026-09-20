@@ -1,4 +1,4 @@
-# Appalachia Field Atlas — v3.3
+# Appalachia Field Atlas — v3.3.1
 
 A static, independently made Fallout 76 web app for GitHub Pages. Search sourced loot positions, explore maps and interiors, and keep an encrypted journal in your own browser.
 
@@ -124,3 +124,5 @@ See V3.2-CHANGES.md for this release.
 See [V3.3-CHANGES.md](V3.3-CHANGES.md) for this release and installation instructions.
 
 See [V3.3-CHANGES.md](V3.3-CHANGES.md) for this release and installation instructions.
+
+Current correction release: [V3.3.1-CHANGES.md](V3.3.1-CHANGES.md).
