@@ -1,1 +1,22 @@
-{}
+{
+  "ref-0073BD97": {
+    "photos": [
+      {
+        "path": "assets/photos/high-knob-bobblehead.webp",
+        "source": "https://fallout.fandom.com/wiki/File:FO76SV_High_Knob_Lookout_bobblehead_01.png",
+        "credit": "LaymansReign / Fallout Wiki",
+        "license": "Game imagery \u00a9 Bethesda / ZeniMax \u00b7 fair-use reference, not an open license",
+        "alt": "Potential bobblehead spawn on the High Knob Lookout stone wall",
+        "scope": "Historical area reference (2024). The source does not verify this individual map reference ID."
+      },
+      {
+        "path": "assets/photos/high-knob-overview.webp",
+        "source": "https://fallout.fandom.com/wiki/File:FO76SV_High_Knob_Lookout_01.png",
+        "credit": "LaymansReign / Fallout Wiki",
+        "license": "Game imagery \u00a9 Bethesda / ZeniMax \u00b7 fair-use reference, not an open license",
+        "alt": "In-game overview of High Knob Lookout",
+        "scope": "Historical area reference (2024). The source does not verify this individual map reference ID."
+      }
+    ]
+  }
+}

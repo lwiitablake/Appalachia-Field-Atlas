@@ -6,7 +6,7 @@
   <meta name="description" content="An independently made Fallout 76 field atlas. Explore sourced collectible spawns and keep an encrypted field journal on your own device.">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>Appalachia · Field Atlas v3 for Fallout 76</title>
+  <title>Appalachia · Field Atlas v3.2 for Fallout 76</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="styles.css">
@@ -18,7 +18,7 @@
 <header class="masthead">
   <a class="brand" href="./" aria-label="Appalachia Field Atlas home"><span class="brand-icon" aria-hidden="true">A<span>76</span></span><span><strong>APPALACHIA</strong><small>FIELD ATLAS <i>/</i> FALLOUT 76</small></span></a>
   <div class="edition"><span class="live-dot"></span><span id="edition">Loading field data…</span></div>
-  <nav aria-label="Main navigation"><button id="help-button" class="quiet">Field guide</button><button id="sources-button" class="quiet">Sources</button><button id="login-button">Log in</button><button id="signup-button" class="primary">Sign up <span aria-hidden="true">↗</span></button><button id="profile-button" hidden></button></nav>
+  <nav aria-label="Main navigation"><button id="help-button" class="quiet">Field guide</button><button id="sources-button" class="quiet">Sources</button><button id="login-button">Log in</button><button id="signup-button" class="primary">Sign up</button><button id="profile-button" hidden></button></nav>
 </header>
 <button id="mobile-explorer" class="mobile-explorer" aria-expanded="false" aria-controls="explorer-panel">Search & layers</button>
 <main class="workspace">
@@ -45,6 +45,7 @@
     <div id="map-message" role="status" hidden></div>
     <div class="map-credit">Imagery & game data © Bethesda / ZeniMax · <a href="https://github.com/AHeroicLlama/Mappalachia" target="_blank" rel="noopener noreferrer">Mappalachia / AHeroicLlama</a></div>
   </section>
+  <button id="restore-detail" class="restore-detail" hidden>Open notes</button>
   <aside id="detail" class="detail" aria-label="Selected discovery" hidden></aside>
 </main>
 <div id="toast" role="status" aria-live="polite" hidden></div>

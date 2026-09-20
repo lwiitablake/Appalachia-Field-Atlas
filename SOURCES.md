@@ -112,3 +112,7 @@ No new third-party spot photos or exact-pin prose were added in v3. Existing map
 ## V3.1 research and native terrain
 
 See [V3.1-CHANGES.md](V3.1-CHANGES.md) for direct links to Ghoul Earth (reviewed, not reused), the Landview screenshot gallery (linked, not copied), and the 98 NAR Regional / New Appalachian Railroad explanations. Reviewed September 20, 2026. The optional native terrain quadrants preserve decoded pixels from the same pinned Mappalachia APPALACHIA.jpg without added lossy compression. This adds no new source imagery or license; the existing Bethesda rights and contextual mapping rationale still apply. `scripts/build_native.py` reproduces these four credited quadrants and verifies pixel equality.
+
+## v3.2 embedded screenshots
+
+See [V3.2-CHANGES.md](V3.2-CHANGES.md#screenshot-rights-and-scope) for image-specific direct links, uploader credits, historical scope, modifications and fair-use rationale. These game screenshots are not covered by the prose Creative Commons license.
