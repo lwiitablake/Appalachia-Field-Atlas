@@ -1,7 +1,7 @@
 export const CATEGORIES = {
   bobblehead: {name:'Bobbleheads',singular:'Bobblehead',symbol:'B',color:'#ae542a'},
   magazine: {name:'Magazines',singular:'Magazine',symbol:'M',color:'#31727a'},
-  caps: {name:'Caps stashes',singular:'Caps stash',symbol:'¢',color:'#846317'},
+  caps: {name:'Caps stashes',singular:'Caps stash',symbol:'¢',color:'#b93228'},
   armor: {name:'Power armor',singular:'Power armor',symbol:'A',color:'#67528a'},
   fusion: {name:'Fusion cores',singular:'Fusion core',symbol:'F',color:'#49773c'},
   location: {name:'Map destinations',singular:'Map destination',symbol:'◇',color:'#475455'},

@@ -98,3 +98,17 @@ Original application implementation prepared for this project with OpenAI Codex.
 Original source files, UI styles, generic text marker symbols, favicon, tests and developer scripts are supplied under GPL-3.0-only. Retain the source and license when redistributing; do not apply that license to separately identified third-party game assets or wiki text. The full corresponding source of this static app is the files supplied here; there is no hidden compiled application bundle or server component.
 
 For corrections, keep the source entry, evidence and modification date together. For a rights concern, remove or replace the specific asset before republishing and update the source register. Do not remove attribution merely because an asset is cached locally.
+
+
+## V3 original artwork and workflow references
+
+V3 icons in `icons.js` are original single-color SVG geometry: bobblehead silhouette, magazine, Caps C emblem, battery, pin, map, mountain/region, door and flag; power armor uses PA text. No Bethesda/Vault Boy artwork or Caps font was copied. These original shapes are GPL-3.0-only with the app. The C is a custom emblem, not an identified authentic Caps typeface. UI text uses the user's available Segoe UI/Arial/sans-serif system stack; no proprietary font file is distributed. Blue/yellow source outlines are interface colors, not copied branded assets.
+
+Community workflow references: [GitHub issue creation](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue), [custom Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [workflow permissions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax), [repository renaming](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository). The workflow uses GitHub's official actions/checkout, actions/upload-pages-artifact, and actions/deploy-pages actions on GitHub's runner; their code is not bundled in this ZIP.
+
+No new third-party spot photos or exact-pin prose were added in v3. Existing map/data source dates remain unchanged. `EDITORIAL.md` describes evidence requirements for future blue/yellow badges. Public contribution authors and issue links remain visible with published comments. Review rights before republishing contributed text; the repository's software license does not automatically establish rights in submissions.
+
+
+## V3.1 research and native terrain
+
+See [V3.1-CHANGES.md](V3.1-CHANGES.md) for direct links to Ghoul Earth (reviewed, not reused), the Landview screenshot gallery (linked, not copied), and the 98 NAR Regional / New Appalachian Railroad explanations. Reviewed September 20, 2026. The optional native terrain quadrants preserve decoded pixels from the same pinned Mappalachia APPALACHIA.jpg without added lossy compression. This adds no new source imagery or license; the existing Bethesda rights and contextual mapping rationale still apply. `scripts/build_native.py` reproduces these four credited quadrants and verifies pixel equality.

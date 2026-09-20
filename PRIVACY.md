@@ -1,3 +1,13 @@
+# V3 public community feature
+
+Private stars, notes, tags, checklists and profiles still use the local encrypted journal described below. The separate **Submit to community** action prepares a GitHub issue URL containing only the contribution explicitly entered in that form, its type, and the selected public game record ID. It does not copy private journal notes, tags, passphrases or profile names. Nothing is submitted merely by preparing the link; the visitor follows it and finishes submission on GitHub.
+
+GitHub account sign-in is required for public submission. The issue, GitHub username and content are public. After maintainer approval, the public entry is committed to `data/community.json` and delivered to all visitors as part of the static site. Display toggles do not delete contributions. GitHub issue history and repository history can retain information after a map entry is removed. Do not submit private information. There is no background browser API polling or automatic private-to-public synchronization.
+
+The publishing workflow uses an ephemeral GITHUB_TOKEN on GitHub's runner to read the approved issue and commit its public entry. This token is never included in the app or browser. See START-HERE-V3.md for approval, removal and hosting setup.
+
+---
+
 # Privacy and local profiles
 
 ## What leaves the device

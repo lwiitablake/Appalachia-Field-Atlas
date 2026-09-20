@@ -9,7 +9,7 @@ const storage=()=>{const values={};return {getItem:k=>values[k]??null,setItem:(k
 const pass='test-only-long-forest-passphrase';
 test('all backgrounds are bundled and unavailable styles fall back to satellite',()=>{
   const app=atlas.spaces['2480661'];
-  assert.deepEqual(Object.keys(app.backgrounds).sort(),['game','military','satellite']);
+  assert.deepEqual(Object.keys(app.backgrounds).sort(),['game','military','native','satellite']);
   for(const [id,s] of Object.entries(atlas.spaces)){
     for(const b of Object.values(s.backgrounds))assert.ok(existsSync(new URL('../'+b.image,import.meta.url)));
     assert.equal(backgroundFor(s,'game').key,id==='2480661'?'game':'satellite');

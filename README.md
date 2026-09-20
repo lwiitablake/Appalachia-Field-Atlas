@@ -1,8 +1,14 @@
-# Appalachia Field Atlas
+# Appalachia Field Atlas — v3.1
 
 A static, independently made Fallout 76 web app for GitHub Pages. Search sourced loot positions, explore maps and interiors, and keep an encrypted journal in your own browser.
 
 **No email, backend, external authentication, analytics, API keys, build step, or paid service is required.** This follows the requested strictly local profile design. “Sign up” creates a profile on that browser only; “Log in” decrypts it with its passphrase. It is not an online account or verified identity.
+
+See [V3.1-CHANGES.md](V3.1-CHANGES.md) for the game-map default, Map key, highlighted directions, acronym help, screenshot examples and optional source-quality terrain.
+
+## V3 interface and community update
+
+V3 adds wider compact hover cards, sans-serif typography, original filled icons, prominent world coordinates, blue/yellow source badges, a phone search drawer and a bottom detail sheet. Public GitHub contributions are opt-in and reviewed before being committed and deployed; personal journal data remains private. See [START-HERE-V3.md](START-HERE-V3.md).
 
 ## What is included
 
@@ -44,7 +50,11 @@ The data snapshot is **Mappalachia 2.0.5.2**, published **September 15, 2026**, 
 
 **Rights limitation:** public availability is not public-domain status. Mappalachia states a fair-use basis for Bethesda game imagery/data; its GPL license does not grant Bethesda's rights. This project documents that basis and the modifications, retains credits, and supplies a reduced-resolution noncommercial reference-map use. Fair use is case-specific, not guaranteed permission. Read [SOURCES.md](SOURCES.md) before changing the intended use. No ad code, monetization, third-party guide screenshots, or Bethesda logo is included.
 
-## Upload to GitHub Pages — no command line needed
+## Upload v3 to GitHub Pages
+
+**Follow [START-HERE-V3.md](START-HERE-V3.md) for the current upload, GitHub Actions deployment, community moderation and repository rename instructions.** The earlier branch deployment below is only an option if you do not use the reviewed community publishing workflow.
+
+## Basic branch hosting (without the community publishing workflow)
 
 1. Extract the delivery ZIP on your computer.
 2. Create a public GitHub repository, for example `fallout76-atlas` (a public repository avoids needing a paid plan for private-repository Pages publishing).

@@ -1,3 +1,17 @@
+# V3.1 follow-up
+
+26 tests pass. Native terrain quadrants match the decoded source pixels exactly. Browser checks confirmed the illustrated default, visible Map key with all category icons and double-outline examples, stronger side-panel separation and rounded written-directions card. See V3.1-CHANGES.md for scope and limitations.
+
+# V3 verification
+
+September 20, 2026: **24 automated tests passed**. The original 18 tests are retained; six additional tests cover source-badge semantics, world-coordinate formatting, renamed repository submission URLs, deduplicated community stars, issue payload validation and editorial assets/icons.
+
+Browser verification at 1440×1000 and 390×844: initialization, Landview search, original SVG icons and red Caps emblem, wide 300px hover card, wider desktop details, yellow guide outlines, coordinate prominence, actual map crop, mobile map-first layout, search drawer, scrollable bottom sheet and no horizontal overflow. A test contribution link was prepared and checked for the correct repository/record/content; it was not submitted publicly. Comments/stars/tags visibility controls were checked separately.
+
+The GitHub-hosted Actions workflow is supplied and its import logic is tested locally; it has not been executed in the user's repository. Deployment and repository permission policies must be verified after uploading. No live public issue was created, no repository renamed, and no remote site changed for this release. No new photo license or exact-pin guide was asserted. The remaining limits in the earlier report still apply.
+
+## Prior version verification history
+
 # Verification report and release checklist
 
 Tested during preparation on September 19, 2026 (America/Los_Angeles).
