@@ -11,6 +11,8 @@ export function mountGallery(root,photos,fallback){
   figure.className='screenshot-slide';img.src=photo.path;img.alt=photo.alt;img.draggable=false;
   img.onerror=()=>{images=images.filter(x=>x!==photo);index=Math.min(index,images.length-1);draw();};
   const credit=document.createElement('a');credit.href=photo.source;credit.target='_blank';credit.rel='noopener noreferrer';credit.textContent=photo.credit+' · Source ↗';
+  if(photo.caption){const text=document.createElement('p');text.textContent=photo.caption;caption.append(text);}
+  if(photo.tags?.length){const tags=document.createElement('p');tags.textContent='Shows: '+photo.tags.join(' · ');caption.append(tags);}
   caption.append(credit,document.createElement('br'),document.createTextNode(photo.license));
   if(photo.scope){const scope=document.createElement('p');scope.textContent=photo.scope;caption.append(scope);}
   figure.append(img,caption);root.append(figure);zoomButton(root,photo.path,photo.alt);

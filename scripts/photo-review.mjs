@@ -1,13 +1,15 @@
+import {validatePhotoMetadata} from '../photo-submissions.js';
 import fs from 'node:fs';import crypto from 'node:crypto';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
 export const bodyHash=body=>crypto.createHash('sha256').update(body||'').digest('hex');
 export function validatePhotos(issue,ids){
  if(issue.pull_request||!Number.isSafeInteger(issue.number)||!/^[a-z0-9-]+$/i.test(issue.user?.login||''))throw Error('Invalid issue identity.');
  const match=(issue.body||'').match(/```json\s*([\s\S]*?)\s*```/);if(!match)throw Error('Missing submission JSON.');const p=JSON.parse(match[1]);
- if(p.type!=='photos'||p.schema!==1||!ids.has(p.recordId)||!Array.isArray(p.photos)||p.photos.length<1||p.photos.length>8)throw Error('Invalid photo submission.');
+ if(p.type!=='photos'||![1,2].includes(p.schema)||!ids.has(p.recordId)||!Array.isArray(p.photos)||p.photos.length<1||p.photos.length>8)throw Error('Invalid photo submission.');
  if(typeof p.notes!=='string'||p.notes.length>2000||p.rights!=='Own in-game screenshots; underlying game rights retained by Bethesda / ZeniMax. Submitted for credited, noncommercial reference use.')throw Error('Invalid notes or consent statement.');
  const urls=[...new Set((issue.body||'').match(/https:\/\/github\.com\/user-attachments\/assets\/[a-f0-9-]{36}/gi)||[])];
  if(urls.length!==p.photos.length)throw Error('Attach exactly one GitHub image URL per photo, in the declared order.');
  p.photos.forEach((photo,i)=>{if(photo.order!==i+1||typeof photo.caption!=='string'||!photo.caption.trim()||photo.caption.length>300||!['Overview / far away','Approach / closer','Detail / up close','Additional view'].includes(photo.view))throw Error('Invalid photo caption or order.');});
+ if(p.schema===2)p.photos.forEach(validatePhotoMetadata);
  return {...p,urls};
 }
 export function authorizedModerator(actor,users,permission){return users.some(u=>u.toLowerCase()===actor.toLowerCase())&&['admin','maintain','write'].includes(permission);}
@@ -25,7 +27,7 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
  if(process.env.PUBLISH!=='true')process.exit(0);
  if(process.env.REVIEW_HASH!==hash)throw Error('Issue changed or review hash missing. Preview and review again.');
  const dir=`assets/photos/community/issue-${num}`;fs.mkdirSync(dir,{recursive:true});const photos=[];
- for(let i=0;i<p.photos.length;i++){const raw=`${dir}/${i+1}.input`,out=`${dir}/${i+1}.webp`;fs.writeFileSync(raw,await download(p.urls[i]));const converted=spawnSync('python',['scripts/sanitize-photo.py',raw,out],{encoding:'utf8'});fs.unlinkSync(raw);if(converted.status!==0)throw Error('Image verification/re-encoding failed: '+converted.stderr);photos.push({path:out,alt:p.photos[i].caption,scope:p.photos[i].view+' · Community submission; approved by '+actor,source:`https://github.com/${repo}/issues/${num}`,credit:issue.user.login+' / community screenshot',license:'Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax',issue:Number(num)});}
+ for(let i=0;i<p.photos.length;i++){const raw=`${dir}/${i+1}.input`,out=`${dir}/${i+1}.webp`;fs.writeFileSync(raw,await download(p.urls[i]));const converted=spawnSync('python',['scripts/sanitize-photo.py',raw,out],{encoding:'utf8'});fs.unlinkSync(raw);if(converted.status!==0)throw Error('Image verification/re-encoding failed: '+converted.stderr);photos.push({path:out,alt:p.photos[i].alt||p.photos[i].caption,caption:p.photos[i].caption,tags:p.photos[i].tags||[],scope:p.photos[i].view+' · Community submission; approved by '+actor,source:`https://github.com/${repo}/issues/${num}`,credit:issue.user.login+' / community screenshot',license:'Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax',issue:Number(num)});}
  const details=JSON.parse(fs.readFileSync('data/details.json'));const entry=details[p.recordId]??={};entry.photos=[...(entry.photos||[]).filter(x=>x.issue!==Number(num)),...photos];if(entry.photos.length>40)throw Error('Location exceeds 40 photos; curate existing images first.');
  fs.writeFileSync('data/details.json',JSON.stringify(details,null,2)+'\n');
  const community=JSON.parse(fs.readFileSync('data/community.json'));community.entries=community.entries.filter(x=>!(x.issue===Number(num)&&x.type==='comment'));if(p.notes.trim())community.entries.push({issue:Number(num),recordId:p.recordId,type:'comment',text:p.notes.trim(),author:issue.user.login,url:`https://github.com/${repo}/issues/${num}`,date:issue.created_at});fs.writeFileSync('data/community.json',JSON.stringify(community,null,2)+'\n');
