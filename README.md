@@ -1,3 +1,7 @@
+# Appalachia Field Atlas — v3.3.4
+
+Adds the local folder photo organizer. Start with [LOCAL-PHOTOS.md](LOCAL-PHOTOS.md). Previous release documentation follows.
+
 # Appalachia Field Atlas — v3.3.3
 
 This is a separate copy of the complete latest build, including batch photo selection, drag and drop, per-photo tags, required captions and alt text, reorder/removal controls, and the Git line-ending validation fix. See [V3.3.3-CHANGES.md](V3.3.3-CHANGES.md). Earlier release notes follow.
