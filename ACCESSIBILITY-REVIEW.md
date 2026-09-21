@@ -1,3 +1,9 @@
+# v3.3.2 focused accessibility review — 2026-09-20
+
+40 automated regression tests passed. Browser checks: mobile detail bottom equals viewport bottom at 390 × 844; no document horizontal overflow at 390 px or 320 px; photo zoom button changes scale to 150%; keyboard arrow pans the zoomed image; submission controls expose labels and the dialog has an accessible name. New inputs use native labels, required fields, a live error alert, and captions. Keyboard/button alternatives remain available for gestures.
+
+This is a focused regression review, not a WCAG 2.1 AA conformance certification. Physical iOS/Android pinch and assistive-technology testing remain outstanding. Automated tests do not establish complete accessibility. Previous review follows.
+
 # WCAG 2.1 AA review — 2026-09-20
 
 Target: WCAG 2.1 Level AA. This is a focused code, DOM, contrast and browser interaction review, not a declaration of full conformance. Reference: [W3C WCAG 2.1](https://www.w3.org/TR/WCAG21/).

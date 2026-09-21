@@ -1,3 +1,7 @@
+# Version 3.3.2
+
+See [V3.3.2-CHANGES.md](V3.3.2-CHANGES.md), [PHOTO-WORKFLOW.md](PHOTO-WORKFLOW.md), and [CLOUD-LOGIN.md](CLOUD-LOGIN.md). Earlier release notes below describe their respective versions.
+
 # Appalachia Field Atlas — v3.3.1
 
 A static, independently made Fallout 76 web app for GitHub Pages. Search sourced loot positions, explore maps and interiors, and keep an encrypted journal in your own browser.

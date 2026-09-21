@@ -1,5 +1,6 @@
 import {readFileSync,writeFileSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
+import {authorizedModerator} from './photo-review.mjs';
 export function validateContribution(issue,ids){
  if(issue.pull_request)throw Error('Use an issue, not a pull request.');
  const match=(issue.body||'').match(/```json\s*([\s\S]*?)\s*```/);
@@ -13,6 +14,10 @@ export function validateContribution(issue,ids){
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)){
  const number=process.env.ISSUE_NUMBER,repo=process.env.GITHUB_REPOSITORY;
+ const actor=process.env.GITHUB_ACTOR;
+ if(!/^[\w-]+$/.test(actor||''))throw Error('Missing moderator identity.');
+ const permission=await fetch(`https://api.github.com/repos/${repo}/collaborators/${actor}/permission`,{headers:{Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json'}});
+ if(!permission.ok||!authorizedModerator(actor,JSON.parse(readFileSync('moderators.json')).githubUsers,(await permission.json()).permission))throw Error('Moderator allowlist and repository write access required.');
  if(!/^\d+$/.test(number||''))throw Error('Issue number must be numeric.');
  const res=await fetch(`https://api.github.com/repos/${repo}/issues/${number}`,{headers:{Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json'}});
  if(!res.ok)throw Error(`GitHub returned ${res.status}`);

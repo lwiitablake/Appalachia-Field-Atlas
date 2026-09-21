@@ -1,0 +1,68 @@
+name: Review and publish photos
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Photo submission issue number'
+        required: true
+        type: string
+      publish:
+        description: 'Publish after reviewing the preview and exact issue body'
+        type: boolean
+        default: false
+      review_hash:
+        description: 'SHA-256 from the preview run (required to publish)'
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: atlas-publish
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    permissions:
+      contents: write
+      issues: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install image decoder
+        if: inputs.publish
+        run: python -m pip install 'Pillow>=12,<13'
+      - name: Verify moderator and review exact submission
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ inputs.issue_number }}
+          PUBLISH: ${{ inputs.publish }}
+          REVIEW_HASH: ${{ inputs.review_hash }}
+        run: node scripts/photo-review.mjs
+      - name: Test publication
+        if: inputs.publish
+        run: node --test tests/*.test.mjs
+      - name: Commit approved photos and notes
+        if: inputs.publish
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/photos/community data/details.json data/community.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish moderator-reviewed photo submission'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        if: inputs.publish
+        with:
+          path: '.'
+      - uses: actions/deploy-pages@v4
+        if: inputs.publish
