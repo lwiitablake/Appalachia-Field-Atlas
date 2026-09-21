@@ -5,7 +5,7 @@
         "path": "assets/photos/high-knob-bobblehead.webp",
         "source": "https://fallout.fandom.com/wiki/File:FO76SV_High_Knob_Lookout_bobblehead_01.png",
         "credit": "LaymansReign / Fallout Wiki",
-        "license": "Game imagery \u00a9 Bethesda / ZeniMax \u00b7 fair-use reference, not an open license",
+        "license": "Game imagery © Bethesda / ZeniMax · fair-use reference, not an open license",
         "alt": "Potential bobblehead spawn on the High Knob Lookout stone wall",
         "scope": "Historical area reference (2024). The source does not verify this individual map reference ID."
       },
@@ -13,9 +13,65 @@
         "path": "assets/photos/high-knob-overview.webp",
         "source": "https://fallout.fandom.com/wiki/File:FO76SV_High_Knob_Lookout_01.png",
         "credit": "LaymansReign / Fallout Wiki",
-        "license": "Game imagery \u00a9 Bethesda / ZeniMax \u00b7 fair-use reference, not an open license",
+        "license": "Game imagery © Bethesda / ZeniMax · fair-use reference, not an open license",
         "alt": "In-game overview of High Knob Lookout",
         "scope": "Historical area reference (2024). The source does not verify this individual map reference ID."
+      }
+    ]
+  },
+  "ref-003C716E": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-2/1.webp",
+        "alt": "Map view",
+        "caption": "Map view",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Additional view · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Fallout-76-Appalachia-Field-Atlas/issues/2",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 2
+      },
+      {
+        "path": "assets/photos/community/issue-2/2.webp",
+        "alt": "Inside the tower",
+        "caption": "Inside the tower",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Fallout-76-Appalachia-Field-Atlas/issues/2",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 2
+      },
+      {
+        "path": "assets/photos/community/issue-2/3.webp",
+        "alt": "Desk inside the tower",
+        "caption": "Desk inside the tower",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Fallout-76-Appalachia-Field-Atlas/issues/2",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 2
+      },
+      {
+        "path": "assets/photos/community/issue-2/4.webp",
+        "alt": "Bobblehead on desk",
+        "caption": "Bobblehead on desk",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Fallout-76-Appalachia-Field-Atlas/issues/2",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 2
       }
     ]
   }
