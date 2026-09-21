@@ -1,3 +1,7 @@
+# Appalachia Field Atlas — v3.3.5
+
+Local photos now includes drag-and-drop for files and supported folders, alongside both browse controls. Existing previews and assignments are retained across batches. Earlier release documentation follows.
+
 # Appalachia Field Atlas — v3.3.4
 
 Adds the local folder photo organizer. Start with [LOCAL-PHOTOS.md](LOCAL-PHOTOS.md). Previous release documentation follows.
