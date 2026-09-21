@@ -13,8 +13,15 @@ export function validatePhotos(issue,ids){
  return {...p,urls};
 }
 export function authorizedModerator(actor,users,permission){return users.some(u=>u.toLowerCase()===actor.toLowerCase())&&['admin','maintain','write'].includes(permission);}
-function allowedDownload(url){const u=new URL(url);return u.protocol==='https:'&&(u.hostname==='github.com'&&u.pathname.startsWith('/user-attachments/assets/')||u.hostname.endsWith('.githubusercontent.com')||/^github-production-user-asset-\d+\.s3(?:\.[a-z0-9-]+)?\.amazonaws\.com$/.test(u.hostname));}
-async function download(url){for(let i=0;i<5;i++){if(!allowedDownload(url))throw Error('Attachment redirect host not allowed.');const r=await fetch(url,{redirect:'manual',signal:AbortSignal.timeout(30000)});if(r.status>=300&&r.status<400){url=new URL(r.headers.get('location'),url).href;continue;}if(!r.ok)throw Error('Attachment download failed.');const chunks=[];let size=0;for await(const chunk of r.body){size+=chunk.length;if(size>8*1024*1024)throw Error('Image exceeds 8 MB.');chunks.push(chunk);}return Buffer.concat(chunks);}throw Error('Too many redirects.');}
+export function allowedDownload(url){
+ let u;try{u=new URL(url);}catch{return false;}
+ if(u.protocol!=='https:'||u.username||u.password||u.port&&u.port!=='443')return false;
+ return u.hostname==='github.com'&&u.pathname.startsWith('/user-attachments/assets/')
+  ||u.hostname.endsWith('.githubusercontent.com')
+  ||u.hostname==='github-production-user-asset-6210df.s3.amazonaws.com'
+  ||/^github-production-user-asset-\d+\.s3(?:\.[a-z0-9-]+)?\.amazonaws\.com$/.test(u.hostname);
+}
+export async function download(url){for(let i=0;i<5;i++){if(!allowedDownload(url))throw Error('Attachment redirect host not allowed: '+new URL(url).hostname);const r=await fetch(url,{redirect:'manual',signal:AbortSignal.timeout(30000)});if(r.status>=300&&r.status<400){url=new URL(r.headers.get('location'),url).href;continue;}if(!r.ok)throw Error('Attachment download failed.');const chunks=[];let size=0;for await(const chunk of r.body){size+=chunk.length;if(size>8*1024*1024)throw Error('Image exceeds 8 MB.');chunks.push(chunk);}return Buffer.concat(chunks);}throw Error('Too many redirects.');}
 if(process.argv[1]===fileURLToPath(import.meta.url)){
  const repo=process.env.GITHUB_REPOSITORY,actor=process.env.GITHUB_ACTOR,num=process.env.ISSUE_NUMBER;
  if(!/^[\w.-]+\/[\w.-]+$/.test(repo||'')||!/^\d+$/.test(num||'')||!/^[\w-]+$/.test(actor||''))throw Error('Invalid workflow context.');
