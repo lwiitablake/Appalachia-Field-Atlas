@@ -44,3 +44,6 @@ GitHub Issues and Actions must be enabled and Pages must use GitHub Actions. Wor
 Issue content is parsed as bounded JSON, never executed. Only known record IDs and GitHub image attachment URLs are accepted; redirects are restricted. Raw uploads are not shipped; verified JPEG/PNG/WebP files are converted into fresh images without source metadata. Approval is a human decision and the ownership assertion is not proof. Game screenshots retain Bethesda/ZeniMax rights; contributor consent does not turn them into public-domain or wholly CC-licensed art. Credits identify the GitHub contributor and link the source issue. Other original sources are preserved.
 
 Sources: [GitHub file attachments](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files), [manual workflows and write access](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow), [GITHUB_TOKEN](https://docs.github.com/en/actions/concepts/security/github_token).
+
+
+Photo selection also supports dropping files onto the outlined area. Browse files remains available for keyboard and touch users. A valid new selection replaces the photo set and its captions; invalid selections preserve the existing draft. Dropping files only creates local previews, not a GitHub upload.
