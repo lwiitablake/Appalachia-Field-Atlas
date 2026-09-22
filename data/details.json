@@ -74,5 +74,51 @@
         "issue": 2
       }
     ]
+  },
+  "ref-0058A22C": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-3/1.webp",
+        "alt": "Bathroom urinals.",
+        "caption": "Bobblehead on the ground, may have been in a urinal.",
+        "tags": [
+          "Bobblehead",
+          "Interior"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/3",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 3
+      },
+      {
+        "path": "assets/photos/community/issue-3/2.webp",
+        "alt": "Closer picture of the urinals, with bobblehead on the ground.",
+        "caption": "Bobblehead on the ground in front of the urinals.",
+        "tags": [
+          "Bobblehead",
+          "Interior"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/3",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 3
+      },
+      {
+        "path": "assets/photos/community/issue-3/3.webp",
+        "alt": "Bobblehead on the ground in front of the urinals.",
+        "caption": "Can see the inside of the urinals, it was likely inside the middle one. Bobblehead is now on the ground.",
+        "tags": [
+          "Bobblehead",
+          "Interior"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/3",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 3
+      }
+    ]
   }
 }
