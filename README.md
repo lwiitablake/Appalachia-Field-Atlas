@@ -1,3 +1,7 @@
+# Appalachia Field Atlas — v3.3.9
+
+Start with [V3.3.9-CHANGES.md](V3.3.9-CHANGES.md). Includes gray interior entrance markers, separate indoor/outdoor filters, lunch pails and coolers, and [Atlas Source Review](ATLAS-SOURCE-REVIEW.md). The current GitHub photo-submission workflow is unchanged. Prior release notes follow.
+
 # Appalachia Field Atlas — v3.3.6
 
 Fixes the GitHub image redirect rejected during publication. See V3.3.6-CHANGES.md. Previous release documentation follows.

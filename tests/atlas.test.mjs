@@ -48,8 +48,8 @@ test('journals accept both legacy identities and newly added location identities
   p.categoryStars=[...LOCATION_CATEGORIES];assert.deepEqual(validateProgress(p),p);
 });
 test('snapshot has expected version, coverage and unique stable identities',()=>{
-  assert.equal(atlas.meta.gameVersion,'1.7.26.13');assert.equal(atlas.records.length,2901);
-  assert.equal(new Set(atlas.records.map(r=>r.id)).size,2901);
+  assert.equal(atlas.meta.gameVersion,'1.7.26.13');assert.equal(atlas.records.length,4300);
+  assert.equal(new Set(atlas.records.map(r=>r.id)).size,4300);
   assert.equal(atlas.records.filter(r=>r.category==='bobblehead').length,683);
   assert.equal(atlas.records.filter(r=>r.category==='magazine').length,718);
   assert.ok(atlas.records.some(r=>r.area.includes('Dino Peaks')));

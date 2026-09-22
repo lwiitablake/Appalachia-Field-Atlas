@@ -1,0 +1,1605 @@
+{
+  "16407": {
+    "space": "2480661",
+    "x": -7546.72998046875,
+    "y": 81806.4140625,
+    "z": 11452.4326171875,
+    "doorChain": [
+      "00004010"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "29678": {
+    "space": "2480661",
+    "x": -157683.953125,
+    "y": -53281.265625,
+    "z": 988.677551269531,
+    "doorChain": [
+      "00004F07"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "327433": {
+    "space": "2480661",
+    "x": 165678.796875,
+    "y": 103059.140625,
+    "z": 8900.7451171875,
+    "doorChain": [
+      "0000B0F4"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "15019": {
+    "space": "2480661",
+    "x": 79823.390625,
+    "y": 73429.703125,
+    "z": 33521.84765625,
+    "doorChain": [
+      "0000F53C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1113704": {
+    "space": "2480661",
+    "x": -114086.6171875,
+    "y": -74760.4609375,
+    "z": 12080.0,
+    "doorChain": [
+      "0001159C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "75171": {
+    "space": "2480661",
+    "x": -118731.046875,
+    "y": 17103.208984375,
+    "z": 2467.45385742187,
+    "doorChain": [
+      "00012E11"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "17798": {
+    "space": "2480661",
+    "x": -26026.412109375,
+    "y": 128808.8671875,
+    "z": 16578.515625,
+    "doorChain": [
+      "000131A6"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "61691": {
+    "space": "2480661",
+    "x": 111600.0,
+    "y": -149608.0,
+    "z": 9249.7880859375,
+    "doorChain": [
+      "0005244D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "19985": {
+    "space": "2480661",
+    "x": 87221.2890625,
+    "y": 43211.91796875,
+    "z": 29269.37890625,
+    "doorChain": [
+      "00053852"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "245179": {
+    "space": "2480661",
+    "x": -42973.65234375,
+    "y": -89327.359375,
+    "z": 17421.111328125,
+    "doorChain": [
+      "000819E7"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "410843": {
+    "space": "2480661",
+    "x": -73294.7734375,
+    "y": -162364.1875,
+    "z": 26454.765625,
+    "doorChain": [
+      "000862FA"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "47864": {
+    "space": "2480661",
+    "x": -127855.234375,
+    "y": -41390.82421875,
+    "z": 6629.84033203125,
+    "doorChain": [
+      "00088A5E"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1096348": {
+    "space": "2480661",
+    "x": 2210.24243164062,
+    "y": 94369.265625,
+    "z": 11240.755859375,
+    "doorChain": [
+      "0010C735"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6453276": {
+    "space": "2480661",
+    "x": 5151.84619140625,
+    "y": -50819.9765625,
+    "z": 22182.958984375,
+    "doorChain": [
+      "00118C58"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6439099": {
+    "space": "2480661",
+    "x": 4811.189453125,
+    "y": -56557.171875,
+    "z": 22694.958984375,
+    "doorChain": [
+      "00118C59"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1217780": {
+    "space": "2480661",
+    "x": 5074.251953125,
+    "y": -63474.63671875,
+    "z": 22347.17578125,
+    "doorChain": [
+      "0011C594"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "16408": {
+    "space": "2480661",
+    "x": -85013.328125,
+    "y": -101699.7734375,
+    "z": 17535.701171875,
+    "doorChain": [
+      "0011D211"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1234114": {
+    "space": "2480661",
+    "x": 27529.474609375,
+    "y": -50104.94921875,
+    "z": 24229.455078125,
+    "doorChain": [
+      "00122DAC"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "16771": {
+    "space": "2480661",
+    "x": 151423.96875,
+    "y": -147263.984375,
+    "z": 8416.0,
+    "doorChain": [
+      "0012C8F6"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1178087": {
+    "space": "2480661",
+    "x": 144992.0,
+    "y": 139072.0,
+    "z": 19104.0,
+    "doorChain": [
+      "00164EB4"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1090149": {
+    "space": "2480661",
+    "x": 113636.125,
+    "y": -43969.55078125,
+    "z": 17630.728515625,
+    "doorChain": [
+      "0017CF44"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "29837": {
+    "space": "2480661",
+    "x": 86330.671875,
+    "y": -62679.18359375,
+    "z": 24671.0,
+    "doorChain": [
+      "0017D671"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "262882": {
+    "space": "2480661",
+    "x": 185336.0,
+    "y": 26760.0,
+    "z": 9528.0,
+    "doorChain": [
+      "001C72E5"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4467146": {
+    "space": "2480661",
+    "x": 1559.27551269531,
+    "y": -117976.0234375,
+    "z": 31526.025390625,
+    "doorChain": [
+      "001FB62D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1161145": {
+    "space": "2480661",
+    "x": -70232.6171875,
+    "y": -71680.5859375,
+    "z": 11501.4931640625,
+    "doorChain": [
+      "0025448B"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "299465": {
+    "space": "2480661",
+    "x": 119262.5,
+    "y": -15904.2919921875,
+    "z": 15881.392578125,
+    "doorChain": [
+      "0025512A"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "109463": {
+    "space": "2480661",
+    "x": 140704.0,
+    "y": -140920.0,
+    "z": 8096.0,
+    "doorChain": [
+      "00256821"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "54083": {
+    "space": "2480661",
+    "x": 140104.0,
+    "y": -137024.0,
+    "z": 7360.0,
+    "doorChain": [
+      "0026A472"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4398573": {
+    "space": "2480661",
+    "x": -133774.75,
+    "y": -47756.21484375,
+    "z": 6661.84033203125,
+    "doorChain": [
+      "0027A22C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "29371": {
+    "space": "2480661",
+    "x": -116551.0390625,
+    "y": -57991.1953125,
+    "z": 8332.892578125,
+    "doorChain": [
+      "00281C6A"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1919669": {
+    "space": "2480661",
+    "x": -14829.123046875,
+    "y": 84968.0,
+    "z": 10933.30078125,
+    "doorChain": [
+      "0028D5B1"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5570784": {
+    "space": "2480661",
+    "x": -90494.171875,
+    "y": -56793.23828125,
+    "z": 8412.0419921875,
+    "doorChain": [
+      "00292A6E"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5551362": {
+    "space": "2480661",
+    "x": -94444.265625,
+    "y": -58575.85546875,
+    "z": 8615.6171875,
+    "doorChain": [
+      "0029BB7C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "339039": {
+    "space": "2480661",
+    "x": 184640.921875,
+    "y": 137747.625,
+    "z": 11798.91015625,
+    "doorChain": [
+      "002A6B50"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "340478": {
+    "space": "2480661",
+    "x": 159128.421875,
+    "y": 68854.84375,
+    "z": 10311.1708984375,
+    "doorChain": [
+      "002A6B62"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1890039": {
+    "space": "2480661",
+    "x": 185423.4375,
+    "y": 59395.92578125,
+    "z": 10409.0732421875,
+    "doorChain": [
+      "002A7B11"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "108190": {
+    "space": "2480661",
+    "x": 197485.421875,
+    "y": -13128.330078125,
+    "z": 5689.2236328125,
+    "doorChain": [
+      "002AA23F"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4392624": {
+    "space": "2480661",
+    "x": 39100.671875,
+    "y": 14430.2685546875,
+    "z": 34147.3359375,
+    "doorChain": [
+      "002AA8C3"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "3719347": {
+    "space": "2480661",
+    "x": -138328.03125,
+    "y": -113383.96875,
+    "z": 19176.0,
+    "doorChain": [
+      "002ACACE"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "282604": {
+    "space": "2480661",
+    "x": -47791.73046875,
+    "y": 70766.328125,
+    "z": 9229.677734375,
+    "doorChain": [
+      "002B9C79"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "9084": {
+    "space": "2480661",
+    "x": 200278.578125,
+    "y": -67041.7421875,
+    "z": 8192.0,
+    "doorChain": [
+      "002CE95D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1929778": {
+    "space": "2480661",
+    "x": -107886.9921875,
+    "y": -45947.9140625,
+    "z": 10534.6904296875,
+    "doorChain": [
+      "002D9C31"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4079610": {
+    "space": "2480661",
+    "x": 191911.21875,
+    "y": 97897.1953125,
+    "z": 7576.49853515625,
+    "doorChain": [
+      "002DA715"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4467145": {
+    "space": "2480661",
+    "x": 43368.22265625,
+    "y": 137001.71875,
+    "z": 19302.4296875,
+    "doorChain": [
+      "002DE785"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "17140": {
+    "space": "2480661",
+    "x": 81192.625,
+    "y": -14258.875,
+    "z": 28265.841796875,
+    "doorChain": [
+      "002E907F"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "19523": {
+    "space": "2480661",
+    "x": 198814.59375,
+    "y": -162097.328125,
+    "z": 5921.8974609375,
+    "doorChain": [
+      "00300AB0"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "2790574": {
+    "space": "2480661",
+    "x": -111644.53125,
+    "y": -92383.78125,
+    "z": 14407.2373046875,
+    "doorChain": [
+      "0031E384"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "531101": {
+    "space": "2480661",
+    "x": 144093.78125,
+    "y": -141765.765625,
+    "z": 7459.22705078125,
+    "doorChain": [
+      "0032BFC1"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1488055": {
+    "space": "2480661",
+    "x": 129354.9765625,
+    "y": -64205.53515625,
+    "z": 9999.7060546875,
+    "doorChain": [
+      "00330C35"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "3795089": {
+    "space": "2480661",
+    "x": 193630.375,
+    "y": 910.844604492188,
+    "z": 6090.6357421875,
+    "doorChain": [
+      "0039EC84"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "3795090": {
+    "space": "2480661",
+    "x": 154444.796875,
+    "y": 127662.2890625,
+    "z": 15553.439453125,
+    "doorChain": [
+      "0039ECBD"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "3796963": {
+    "space": "2480661",
+    "x": -119826.1953125,
+    "y": -83369.46875,
+    "z": 13720.0,
+    "doorChain": [
+      "0039F01D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1137735": {
+    "space": "2480661",
+    "x": 87856.9375,
+    "y": -138637.203125,
+    "z": 16227.98828125,
+    "doorChain": [
+      "003C1EC4"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4308071": {
+    "space": "2480661",
+    "x": -20221.244140625,
+    "y": 99432.09375,
+    "z": 10790.998046875,
+    "doorChain": [
+      "003CAD47"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4012309": {
+    "space": "2480661",
+    "x": 41008.08984375,
+    "y": 71455.9453125,
+    "z": 21856.0,
+    "doorChain": [
+      "003D3996"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "189702": {
+    "space": "2480661",
+    "x": 58969.0,
+    "y": -53144.765625,
+    "z": 29920.0,
+    "doorChain": [
+      "003E90D1"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "491697": {
+    "space": "2480661",
+    "x": 142765.890625,
+    "y": -141670.96875,
+    "z": 12099.2275390625,
+    "doorChain": [
+      "003E926D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "36074": {
+    "space": "2480661",
+    "x": 107369.5546875,
+    "y": -131336.328125,
+    "z": 10958.4072265625,
+    "doorChain": [
+      "003E9E54"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4163599": {
+    "space": "2480661",
+    "x": 38697.546875,
+    "y": -104181.2578125,
+    "z": 38159.18359375,
+    "doorChain": [
+      "003F8D5B"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5502601": {
+    "space": "2480661",
+    "x": -55857.78125,
+    "y": 25927.453125,
+    "z": 10321.5,
+    "doorChain": [
+      "00402B9B"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4208409": {
+    "space": "2480661",
+    "x": 26653.775390625,
+    "y": -142473.78125,
+    "z": 33149.28125,
+    "doorChain": [
+      "0040374C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4217147": {
+    "space": "2480661",
+    "x": 25737.900390625,
+    "y": 170022.140625,
+    "z": 12198.40625,
+    "doorChain": [
+      "0040593C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4198678": {
+    "space": "2480661",
+    "x": 143593.59375,
+    "y": 201484.546875,
+    "z": 21160.81640625,
+    "doorChain": [
+      "0040A82C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4272165": {
+    "space": "2480661",
+    "x": 13877.0,
+    "y": 128227.1953125,
+    "z": 13206.0615234375,
+    "doorChain": [
+      "0040C1CA"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4267109": {
+    "space": "2480661",
+    "x": -43978.1796875,
+    "y": -19672.65625,
+    "z": 9511.169921875,
+    "doorChain": [
+      "00417F36"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4235969": {
+    "space": "2480661",
+    "x": 27527.392578125,
+    "y": 200166.0625,
+    "z": 13318.982421875,
+    "doorChain": [
+      "00428C68"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4243879": {
+    "space": "2480661",
+    "x": -8504.62109375,
+    "y": 199493.484375,
+    "z": 10518.5439453125,
+    "doorChain": [
+      "0042A7DE"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4443790": {
+    "space": "2480661",
+    "x": -6512.48828125,
+    "y": 95594.796875,
+    "z": 11087.3681640625,
+    "doorChain": [
+      "0043CED1"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "107865": {
+    "space": "2480661",
+    "x": 148455.78125,
+    "y": -138994.890625,
+    "z": 7407.46875,
+    "doorChain": [
+      "00471911"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4667916": {
+    "space": "2480661",
+    "x": -62704.7578125,
+    "y": -112937.9765625,
+    "z": 21464.0,
+    "doorChain": [
+      "0047497E"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4684906": {
+    "space": "2480661",
+    "x": -875.923950195313,
+    "y": 89394.7890625,
+    "z": 11565.125,
+    "doorChain": [
+      "00478928"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4687876": {
+    "space": "2480661",
+    "x": 5283.10107421875,
+    "y": 85875.453125,
+    "z": 12420.154296875,
+    "doorChain": [
+      "00478F95"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4667615": {
+    "space": "2480661",
+    "x": -6178.66259765625,
+    "y": 76902.3828125,
+    "z": 10851.755859375,
+    "doorChain": [
+      "0047AB18"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4672969": {
+    "space": "2480661",
+    "x": -40504.0078125,
+    "y": 50783.1953125,
+    "z": 14169.224609375,
+    "doorChain": [
+      "0047C347"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4668643": {
+    "space": "2480661",
+    "x": 157951.375,
+    "y": -3956.54077148438,
+    "z": 7257.8369140625,
+    "doorChain": [
+      "00482D51"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5116147": {
+    "space": "2480661",
+    "x": -119563.3828125,
+    "y": -104306.046875,
+    "z": 21207.0,
+    "doorChain": [
+      "004E1105"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4361308": {
+    "space": "2480661",
+    "x": 101198.7109375,
+    "y": 117476.078125,
+    "z": 21991.658203125,
+    "doorChain": [
+      "005378A6"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4219055": {
+    "space": "2480661",
+    "x": 145180.75,
+    "y": 186609.359375,
+    "z": 18733.333984375,
+    "doorChain": [
+      "0054040D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5508629": {
+    "space": "2480661",
+    "x": 40182.06640625,
+    "y": -119054.8359375,
+    "z": 33581.56640625,
+    "doorChain": [
+      "005411FF"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5503303": {
+    "space": "2480661",
+    "x": 22091.537109375,
+    "y": 157530.78125,
+    "z": 15904.8857421875,
+    "doorChain": [
+      "00541995"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4258459": {
+    "space": "2480661",
+    "x": -168902.0,
+    "y": 189116.4375,
+    "z": 1139.32556152344,
+    "doorChain": [
+      "00544828"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4221845": {
+    "space": "2480661",
+    "x": 152521.71875,
+    "y": -141691.625,
+    "z": 7374.22314453125,
+    "doorChain": [
+      "00546746"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4211186": {
+    "space": "2480661",
+    "x": -80824.1328125,
+    "y": 47976.18359375,
+    "z": 4617.27490234375,
+    "doorChain": [
+      "00563B33"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5661109": {
+    "space": "2480661",
+    "x": -51223.75390625,
+    "y": 146803.296875,
+    "z": 12862.4716796875,
+    "doorChain": [
+      "0056BAC6"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4189733": {
+    "space": "2480661",
+    "x": -57075.66015625,
+    "y": -148734.296875,
+    "z": 31476.80078125,
+    "doorChain": [
+      "00590264"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5719591": {
+    "space": "2480661",
+    "x": -96631.9375,
+    "y": -115364.6796875,
+    "z": 19236.720703125,
+    "doorChain": [
+      "00590404"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5807774": {
+    "space": "2480661",
+    "x": 59261.54296875,
+    "y": 111097.71875,
+    "z": 32436.458984375,
+    "doorChain": [
+      "005977EB"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "598427": {
+    "space": "2480661",
+    "x": 171582.765625,
+    "y": 62748.36328125,
+    "z": 7440.34521484375,
+    "doorChain": [
+      "005A2491"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5925990": {
+    "space": "2480661",
+    "x": 39141.22265625,
+    "y": -105326.75,
+    "z": 37847.69140625,
+    "doorChain": [
+      "005A6C7A"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5929681": {
+    "space": "2480661",
+    "x": -46175.90625,
+    "y": -120224.9609375,
+    "z": 22560.0,
+    "doorChain": [
+      "005A7B8C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5950852": {
+    "space": "2480661",
+    "x": 27399.9609375,
+    "y": 206913.1875,
+    "z": 13614.73828125,
+    "doorChain": [
+      "005AE158"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6039736": {
+    "space": "2480661",
+    "x": -130376.3125,
+    "y": -4248.4482421875,
+    "z": 11834.7685546875,
+    "doorChain": [
+      "005C3DFE"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6041095": {
+    "space": "2480661",
+    "x": -173779.453125,
+    "y": -42611.4453125,
+    "z": 576.0,
+    "doorChain": [
+      "005C3FD8"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "591964": {
+    "space": "2480661",
+    "x": 119108.0546875,
+    "y": 7720.6767578125,
+    "z": 16018.7421875,
+    "doorChain": [
+      "005C5F6D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5835443": {
+    "space": "2480661",
+    "x": 144292.765625,
+    "y": -137227.65625,
+    "z": 7882.8076171875,
+    "doorChain": [
+      "005CF065"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5975028": {
+    "space": "2480661",
+    "x": -83459.6171875,
+    "y": 160252.84375,
+    "z": 13355.2119140625,
+    "doorChain": [
+      "005D1255"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6043862": {
+    "space": "2480661",
+    "x": -126322.4296875,
+    "y": 202837.65625,
+    "z": 10028.15234375,
+    "doorChain": [
+      "005D7941"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6098848": {
+    "space": "2480661",
+    "x": -153706.515625,
+    "y": 125943.875,
+    "z": 7252.888671875,
+    "doorChain": [
+      "005E4B95"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6235848": {
+    "space": "2480661",
+    "x": 183556.546875,
+    "y": 2929.041015625,
+    "z": 6490.37890625,
+    "doorChain": [
+      "005FD6F1"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6149937": {
+    "space": "2480661",
+    "x": 30663.05078125,
+    "y": -158646.078125,
+    "z": 26147.49609375,
+    "doorChain": [
+      "006088ED"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6334144": {
+    "space": "2480661",
+    "x": -124711.3671875,
+    "y": 202757.0,
+    "z": 10296.98828125,
+    "doorChain": [
+      "0060D89C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6659249": {
+    "space": "2480661",
+    "x": -74792.359375,
+    "y": -111332.75,
+    "z": 19101.318359375,
+    "doorChain": [
+      "00675056"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5986760": {
+    "space": "2480661",
+    "x": 193693.5625,
+    "y": 187478.390625,
+    "z": 14383.9560546875,
+    "doorChain": [
+      "006A5817"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6956891": {
+    "space": "2480661",
+    "x": 27038.037109375,
+    "y": 100143.890625,
+    "z": 23538.611328125,
+    "doorChain": [
+      "006C5036"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7091349": {
+    "space": "2480661",
+    "x": 74663.796875,
+    "y": -223723.546875,
+    "z": 10256.98046875,
+    "doorChain": [
+      "006CAC96"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7202047": {
+    "space": "2480661",
+    "x": 2064.0,
+    "y": -229256.0,
+    "z": 9648.0,
+    "doorChain": [
+      "006D82F1"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7502429": {
+    "space": "2480661",
+    "x": 48276.80859375,
+    "y": -185904.328125,
+    "z": 19406.365234375,
+    "doorChain": [
+      "006D8C88"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7259773": {
+    "space": "2480661",
+    "x": 33702.11328125,
+    "y": -188767.53125,
+    "z": 20762.63671875,
+    "doorChain": [
+      "00726EC8"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7307180": {
+    "space": "2480661",
+    "x": -96554.875,
+    "y": -147173.203125,
+    "z": 23733.939453125,
+    "doorChain": [
+      "00733E1C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7292896": {
+    "space": "2480661",
+    "x": -100460.859375,
+    "y": 108682.40625,
+    "z": 13990.5751953125,
+    "doorChain": [
+      "0073982C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7623495": {
+    "space": "2480661",
+    "x": -80918.515625,
+    "y": 202676.875,
+    "z": 16441.0234375,
+    "doorChain": [
+      "0073EA3E"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7223506": {
+    "space": "2480661",
+    "x": -22520.025390625,
+    "y": -218327.109375,
+    "z": 14893.19140625,
+    "doorChain": [
+      "00750E71"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7159495": {
+    "space": "2480661",
+    "x": -17835.490234375,
+    "y": -191491.6875,
+    "z": 22872.73828125,
+    "doorChain": [
+      "00751C9B"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7307178": {
+    "space": "2480661",
+    "x": 25084.265625,
+    "y": -213168.0,
+    "z": 12220.1591796875,
+    "doorChain": [
+      "007546AE"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5962513": {
+    "space": "2480661",
+    "x": -92707.9375,
+    "y": 206287.921875,
+    "z": 18243.013671875,
+    "doorChain": [
+      "0076F41A"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7946036": {
+    "space": "2480661",
+    "x": 58000.0,
+    "y": -55120.0,
+    "z": 30304.0,
+    "doorChain": [
+      "00797C56"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8040636": {
+    "space": "2480661",
+    "x": 178212.65625,
+    "y": 214668.0,
+    "z": 22029.515625,
+    "doorChain": [
+      "007982DC"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7088437": {
+    "space": "2480661",
+    "x": -39078.94140625,
+    "y": -249409.46875,
+    "z": 10976.94140625,
+    "doorChain": [
+      "0079877A"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "3594938": {
+    "space": "2480661",
+    "x": 178160.84375,
+    "y": 231358.421875,
+    "z": 30122.06640625,
+    "doorChain": [
+      "00798E62"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7799062": {
+    "space": "2480661",
+    "x": -121615.9375,
+    "y": -163178.03125,
+    "z": 21353.361328125,
+    "doorChain": [
+      "00799083"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8591074": {
+    "space": "2480661",
+    "x": -202663.4375,
+    "y": 85368.0,
+    "z": 7751.98046875,
+    "doorChain": [
+      "007FC14C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8382518": {
+    "space": "2480661",
+    "x": -227945.8125,
+    "y": -20703.751953125,
+    "z": 4853.85888671875,
+    "doorChain": [
+      "0081563F"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8587061": {
+    "space": "2480661",
+    "x": -237578.65625,
+    "y": 21602.1328125,
+    "z": 5702.91748046875,
+    "doorChain": [
+      "0081571B"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8526699": {
+    "space": "2480661",
+    "x": -253209.296875,
+    "y": 151163.859375,
+    "z": 7451.287109375,
+    "doorChain": [
+      "00824FA5"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8542423": {
+    "space": "2480661",
+    "x": -247936.0,
+    "y": 157753.453125,
+    "z": 8648.642578125,
+    "doorChain": [
+      "008259F9"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8065480": {
+    "space": "2480661",
+    "x": -234452.40625,
+    "y": 98772.6953125,
+    "z": 6060.71337890625,
+    "doorChain": [
+      "008414B0"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8575409": {
+    "space": "2480661",
+    "x": -216144.0,
+    "y": 76696.0,
+    "z": 5048.0,
+    "doorChain": [
+      "00853C37"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "1530824": {
+    "space": "2480661",
+    "x": 185336.0,
+    "y": 26760.0,
+    "z": 9528.0,
+    "doorChain": [
+      "001C72E5",
+      "001AE92D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "4268432": {
+    "space": "2480661",
+    "x": -47791.73046875,
+    "y": 70766.328125,
+    "z": 9229.677734375,
+    "doorChain": [
+      "002B9C79",
+      "004121AD"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5685042": {
+    "space": "2480661",
+    "x": 119262.5,
+    "y": -15904.2919921875,
+    "z": 15881.392578125,
+    "doorChain": [
+      "0025512A",
+      "00573192"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5728237": {
+    "space": "2480661",
+    "x": 101198.7109375,
+    "y": 117476.078125,
+    "z": 21991.658203125,
+    "doorChain": [
+      "005378A6",
+      "00576818"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5930030": {
+    "space": "2480661",
+    "x": 79823.390625,
+    "y": 73429.703125,
+    "z": 33521.84765625,
+    "doorChain": [
+      "0000F53C",
+      "005ABE98"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6054107": {
+    "space": "2480661",
+    "x": 119108.0546875,
+    "y": 7720.6767578125,
+    "z": 16018.7421875,
+    "doorChain": [
+      "005C5F6D",
+      "005C618C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "5995911": {
+    "space": "2480661",
+    "x": 144992.0,
+    "y": 139072.0,
+    "z": 19104.0,
+    "doorChain": [
+      "00164EB4",
+      "005D7A88"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6230427": {
+    "space": "2480661",
+    "x": 148455.78125,
+    "y": -138994.890625,
+    "z": 7407.46875,
+    "doorChain": [
+      "00471911",
+      "005F123C"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6230426": {
+    "space": "2480661",
+    "x": 86330.671875,
+    "y": -62679.18359375,
+    "z": 24671.0,
+    "doorChain": [
+      "0017D671",
+      "00609DCF"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6230690": {
+    "space": "2480661",
+    "x": -42973.65234375,
+    "y": -89327.359375,
+    "z": 17421.111328125,
+    "doorChain": [
+      "000819E7",
+      "0060E1A7"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6958419": {
+    "space": "2480661",
+    "x": 74663.796875,
+    "y": -223723.546875,
+    "z": 10256.98046875,
+    "doorChain": [
+      "006CAC96",
+      "006E26A8"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7195955": {
+    "space": "2480661",
+    "x": 25084.265625,
+    "y": -213168.0,
+    "z": 12220.1591796875,
+    "doorChain": [
+      "007546AE",
+      "00771DD8"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8512750": {
+    "space": "2480661",
+    "x": -234452.40625,
+    "y": 98772.6953125,
+    "z": 6060.71337890625,
+    "doorChain": [
+      "008414B0",
+      "007F640D"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8525395": {
+    "space": "2480661",
+    "x": -234452.40625,
+    "y": 98772.6953125,
+    "z": 6060.71337890625,
+    "doorChain": [
+      "008414B0",
+      "008218C0"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "8527576": {
+    "space": "2480661",
+    "x": -234452.40625,
+    "y": 98772.6953125,
+    "z": 6060.71337890625,
+    "doorChain": [
+      "008414B0",
+      "0082DD75"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "6120007": {
+    "space": "2480661",
+    "x": 144992.0,
+    "y": 139072.0,
+    "z": 19104.0,
+    "doorChain": [
+      "00164EB4",
+      "005D7A88",
+      "005B7EF8"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "7316238": {
+    "space": "2480661",
+    "x": 25084.265625,
+    "y": -213168.0,
+    "z": 12220.1591796875,
+    "doorChain": [
+      "007546AE",
+      "00771DD8",
+      "0076250A"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  }
+}

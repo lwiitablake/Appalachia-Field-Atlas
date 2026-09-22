@@ -1,0 +1,10 @@
+{
+  "name": "Atlas Source Review",
+  "sources": [
+    {"name":"Mappalachia releases","url":"https://github.com/AHeroicLlama/Mappalachia/releases","use":"Review stable release metadata; compare placed reference IDs and door links against pinned data. Software GPL-3.0; game data/imagery retains Bethesda rights and upstream states a fair-use basis, not an open image license."},
+    {"name":"Bethesda Fallout 76 news","url":"https://fallout.bethesda.net/en/news","use":"Read patch notes for changed locations and items; link to announcements, do not copy articles or promotional images."},
+    {"name":"Lunch pail reference","url":"https://fallout.fandom.com/wiki/Lunch_pail_(Fallout_76)","use":"Discovery lead only. No prose or image imported in v3.3.9. Check page revision, attribution and each file's separate rights before reuse."},
+    {"name":"Cooler reference","url":"https://fallout.fandom.com/wiki/Cooler_(Fallout_76)","use":"Discovery lead only. No prose or image imported in v3.3.9. Cross-check container identity in the game data."},
+    {"name":"Mappalachia licensing","url":"https://github.com/AHeroicLlama/Mappalachia#licensing","use":"Keep software license separate from underlying game assets. Attribution alone does not grant reuse rights."}
+  ]
+}

@@ -44,3 +44,10 @@ Version 3.3.4 local organizer: focused source review verifies native folder/file
 Version 3.3.5: source review confirms dragging is optional, folder/file browse controls remain labeled and keyboard accessible, drop instructions are linked by aria-describedby, drag state has solid-border feedback, and load/error outcomes use the existing polite status region. All 48 regression tests passed. Real-browser directory dragging and screen-reader testing remain outstanding; this is not a full WCAG audit.
 
 Version 3.3.6 changes the server-side photo redirect allowlist only; the website interface and accessibility behavior are unchanged. 50 regression tests pass. No additional browser or screen-reader audit was performed for this backend correction.
+# v3.3.9 review — 2026-09-22
+
+Automated axe-core 4.10.3 scans with WCAG 2 A/AA and WCAG 2.1 A/AA tags: zero detected violations in desktop map, map key dialog, Monongah interior detail, mobile detail, and mobile filters at 390×844. Fixed mobile Search & layers contrast and an unfocusable scrolling background description. Axe injection bypassed CSP in the test browser only; production CSP remains unchanged. Reports retained in `qa/v339-accessibility.json`.
+
+Gray interior markers also use arrow badges and textual Inside/submap labels. Native labeled checkboxes independently select indoor and outdoor records; keyboard-accessible result buttons provide an alternative to pointer map markers. New container icons retain accessible category names in controls. Browser checks verified filtering, interior navigation, preserved photo gallery, map key, and no mobile horizontal overflow. White on the new #555b62 marker fill has contrast greater than 6:1.
+
+Limits: axe marks some image/map contrast and ARIA checks for manual review. Native iOS Safari, assistive-technology reading order and a complete manual WCAG audit were not performed. Automated results are not a certification of full WCAG 2.1 AA conformance. Previous release review notes follow.

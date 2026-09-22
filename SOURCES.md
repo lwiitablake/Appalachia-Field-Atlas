@@ -128,3 +128,10 @@ See [V3.2-CHANGES.md](V3.2-CHANGES.md#screenshot-rights-and-scope) for image-spe
 ## Version 3.3
 
 [Licensing scope and visible credits](LICENSES.html) · [Regional derivation, coordinate guidance and sources](V3.3-CHANGES.md). Existing third-party rights are unchanged.
+
+
+## v3.3.9 container and entrance records
+
+Lunch pails (494) and coolers (905) plus door-chain associations are extracted from the pinned [Mappalachia 2.0.5.2 release](https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2), game 1.7.26.13. Per-pin source links, form IDs and local coordinates are in the detail panel. Attribution: AHeroicLlama and Mappalachia contributors; underlying game data © Bethesda / ZeniMax. See [upstream licensing and disclaimer](https://github.com/AHeroicLlama/Mappalachia#licensing). This is not an open license for Bethesda assets.
+
+Container icons are original SVG artwork under the application GPL license. Placement descriptions are original coordinate-derived context. No new web screenshots or copied guide text were added. Research leads, permissions procedure and direct links: [Atlas Source Review](ATLAS-SOURCE-REVIEW.md).

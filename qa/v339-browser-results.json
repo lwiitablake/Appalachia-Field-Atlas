@@ -1,0 +1,12 @@
+{
+  "errors": [],
+  "mobileHorizontalOverflow": false,
+  "checks": [
+    "interior projection",
+    "interior toggle",
+    "interior navigation",
+    "container layers",
+    "map key",
+    "mobile viewport"
+  ]
+}

@@ -6,18 +6,18 @@
   <meta name="description" content="An independently made Fallout 76 field atlas. Explore sourced collectible spawns and keep an encrypted field journal on your own device.">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>Appalachia · Field Atlas v3.3.6 for Fallout 76</title>
+  <title>Appalachia · Field Atlas v3.3.9 for Fallout 76</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="vendor/leaflet.css">
-  <link rel="stylesheet" href="assets/runtime-3.3.6/styles.css">
+  <link rel="stylesheet" href="assets/runtime-3.3.9/styles.css">
   <script src="vendor/leaflet.js" defer></script>
-  <script src="assets/runtime-3.3.6/app.js" type="module"></script>
+  <script src="assets/runtime-3.3.9/app.js" type="module"></script>
 </head>
 <body class="atlas-app">
 <a class="skip-link" href="#search">Skip to search</a>
 <header class="masthead">
   <a class="brand" href="./" aria-label="Appalachia Field Atlas home"><img class="brand-mark" src="assets/favicon.svg" width="42" height="42" alt=""><span><strong>APPALACHIA</strong><small>FIELD ATLAS <i>/</i> FALLOUT 76</small></span></a>
-  <div class="edition"><span class="live-dot"></span><span id="edition">V3.3.6 · Loading field data…</span></div>
+  <div class="edition"><span class="live-dot"></span><span id="edition">V3.3.9 · Loading field data…</span></div>
   <nav aria-label="Main navigation"><a class="credits-link" href="LICENSES.html">Map credits & licenses</a><button id="help-button" class="quiet">Field guide</button><button id="sources-button" class="quiet">Sources</button><button id="photo-organizer" class="quiet">Local photos</button><button id="moderator-tools" class="quiet">Moderator review</button><button id="login-button">Log in</button><button id="signup-button" class="primary">Sign up</button><button id="profile-button" hidden></button></nav>
 </header>
 <button id="mobile-explorer" class="mobile-explorer" aria-expanded="false" aria-controls="explorer-panel">Search & layers</button>
@@ -29,6 +29,7 @@
     <div class="background-settings"><label for="background">Map background</label><select id="background"><option value="satellite">Satellite / terrain</option><option value="game">Illustrated game map</option><option value="military">Military map</option><option value="native">Terrain / source quality (~30 MB)</option></select><p id="background-note" class="form-help"></p><label for="background-opacity">Background visibility <output id="opacity-value">100%</output></label><input id="background-opacity" type="range" min="20" max="100" value="100" step="5"></div>
     <div class="section-label"><h2>What are you looking for?</h2><button id="all-layers" class="text-button">All layers</button></div>
     <div class="location-toggles"><button id="all-locations" class="text-button" aria-pressed="false">Show all locations</button><label><input id="location-labels" type="checkbox"> Location labels</label></div>
+    <fieldset class="space-filters"><legend>Resource location</legend><label class="checkline"><input id="show-overworld" type="checkbox" checked> Overworld / outdoor points</label><label class="checkline"><input id="show-interiors" type="checkbox" checked> Interior / submap points (gray on Appalachia)</label><p class="form-help">Gray icons show resources inside, at a linked entrance—not outdoor loot. Click to open the interior. Interiors without a sourced entrance remain available in the interior directory.</p></fieldset>
     <div id="categories" class="categories"></div>
     <div class="journal-filters"><label class="sr-only" for="view">Progress filter</label><select id="view"><option value="all">All discoveries</option><option value="stars">Starred places &amp; items</option><option value="categories">Starred item categories</option><option value="unchecked">Not checked off</option><option value="checked">Checked off</option></select><label class="sr-only" for="tag-filter">Tag filter</label><select id="tag-filter"><option value="">Any tag</option></select></div>
     <fieldset class="evidence-filters" aria-describedby="evidence-help"><legend>Show locations with</legend><label class="checkline"><input id="photos-only" type="checkbox"> Screenshots (bright blue outline)</label><label class="checkline"><input id="guided-only" type="checkbox"> Written directions (yellow outline)</label><p id="evidence-help">Select either or both. Both shows locations with screenshots or directions, including locations with both. Leave unchecked to show all.</p></fieldset>

@@ -1,0 +1,19 @@
+{
+  "containers": {
+    "lunchbox": 494,
+    "cooler": 905
+  },
+  "linkedInteriors": 144,
+  "monongah": {
+    "space": "2480661",
+    "x": 59261.54296875,
+    "y": 111097.71875,
+    "z": 32436.458984375,
+    "doorChain": [
+      "005977EB"
+    ],
+    "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+    "method": "source-teleport-chain"
+  },
+  "unmappedInteriorResources": 483
+}
