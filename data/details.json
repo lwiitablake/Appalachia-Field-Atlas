@@ -395,5 +395,50 @@
         "issue": 10
       }
     ]
+  },
+  "ref-00386CAC": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-11/1.webp",
+        "alt": "The trailer.",
+        "caption": "The trailer.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/11",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 11
+      },
+      {
+        "path": "assets/photos/community/issue-11/2.webp",
+        "alt": "Inside the trailer.",
+        "caption": "Inside the trailer.",
+        "tags": [
+          "Bobblehead",
+          "Interior"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/11",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 11
+      },
+      {
+        "path": "assets/photos/community/issue-11/3.webp",
+        "alt": "Bobblehead on desk next to the computer.",
+        "caption": "Bobblehead on desk next to the computer.",
+        "tags": [
+          "Bobblehead",
+          "Interior"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/11",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 11
+      }
+    ]
   }
 }
