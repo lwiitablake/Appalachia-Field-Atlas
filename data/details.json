@@ -339,5 +339,61 @@
         "issue": 9
       }
     ]
+  },
+  "ref-002B7B51": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-10/1.webp",
+        "alt": "Front view of tent.",
+        "caption": "Front view of tent.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/10",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 10
+      },
+      {
+        "path": "assets/photos/community/issue-10/2.webp",
+        "alt": "Back corner of tent. There's a metal drum.",
+        "caption": "Back corner of tent. There's a metal drum.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/10",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 10
+      },
+      {
+        "path": "assets/photos/community/issue-10/3.webp",
+        "alt": "Bobble head on ground next to metal drum.",
+        "caption": "Bobble head on ground next to metal drum.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/10",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 10
+      },
+      {
+        "path": "assets/photos/community/issue-10/4.webp",
+        "alt": "Bobble head on ground next to metal drum.",
+        "caption": "Bobble head on ground next to metal drum.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/10",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 10
+      }
+    ]
   }
 }
