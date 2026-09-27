@@ -251,5 +251,48 @@
         "issue": 6
       }
     ]
+  },
+  "ref-008285BD": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-7/1.webp",
+        "alt": "Cage under red canopy",
+        "caption": "Cage under red canopy",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/7",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 7
+      },
+      {
+        "path": "assets/photos/community/issue-7/2.webp",
+        "alt": "Cage under red canopy",
+        "caption": "Cage under red canopy",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/7",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 7
+      },
+      {
+        "path": "assets/photos/community/issue-7/3.webp",
+        "alt": "Cage under red canopy, back near the wall",
+        "caption": "Cage under red canopy, back near the wall",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/7",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 7
+      }
+    ]
   }
 }
