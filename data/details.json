@@ -219,5 +219,37 @@
         "issue": 5
       }
     ]
+  },
+  "ref-003C716D": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-6/1.webp",
+        "alt": "Magazine on table inside the ranger station. Table is between two couches in front of a fireplace.",
+        "caption": "Magazine on table inside the ranger station. Table is between two couches in front of a fireplace.",
+        "tags": [
+          "Magazine",
+          "Interior"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/6",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 6
+      },
+      {
+        "path": "assets/photos/community/issue-6/2.webp",
+        "alt": "Magazine on table inside the ranger station. Table is between two couches in front of a fireplace.",
+        "caption": "Magazine on table inside the ranger station. Table is between two couches in front of a fireplace.",
+        "tags": [
+          "Magazine",
+          "Interior"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/6",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 6
+      }
+    ]
   }
 }
