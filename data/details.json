@@ -294,5 +294,50 @@
         "issue": 7
       }
     ]
+  },
+  "ref-003DC55E": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-9/1.webp",
+        "alt": "Drop Site V9 from the outside",
+        "caption": "Drop Site V9 from the outside",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/9",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 9
+      },
+      {
+        "path": "assets/photos/community/issue-9/2.webp",
+        "alt": "Drop Site V9, inside",
+        "caption": "Drop Site V9, inside",
+        "tags": [
+          "Bobblehead",
+          "Interior"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/9",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 9
+      },
+      {
+        "path": "assets/photos/community/issue-9/3.webp",
+        "alt": "Drop Site V9, inside. Bobblehead on desk.",
+        "caption": "Drop Site V9, inside. Bobblehead on desk.",
+        "tags": [
+          "Bobblehead",
+          "Interior"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/9",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 9
+      }
+    ]
   }
 }
