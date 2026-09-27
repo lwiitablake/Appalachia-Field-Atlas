@@ -176,5 +176,48 @@
         "issue": 4
       }
     ]
+  },
+  "ref-002B7B75": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-5/1.webp",
+        "alt": "Tent",
+        "caption": "Tent at The Thorn",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/5",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 5
+      },
+      {
+        "path": "assets/photos/community/issue-5/2.webp",
+        "alt": "Tent at The Thorn, makeshift table in the back",
+        "caption": "Tent at The Thorn, makeshift table in the back",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/5",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 5
+      },
+      {
+        "path": "assets/photos/community/issue-5/3.webp",
+        "alt": "Bobblehead behind make shift table",
+        "caption": "Bobblehead behind make shift table, likely fell off",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/5",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 5
+      }
+    ]
   }
 }
