@@ -5,7 +5,7 @@
         "path": "assets/photos/high-knob-bobblehead.webp",
         "source": "https://fallout.fandom.com/wiki/File:FO76SV_High_Knob_Lookout_bobblehead_01.png",
         "credit": "LaymansReign / Fallout Wiki",
-        "license": "Game imagery \u00a9 Bethesda / ZeniMax \u00b7 fair-use reference, not an open license",
+        "license": "Game imagery © Bethesda / ZeniMax · fair-use reference, not an open license",
         "alt": "Potential bobblehead spawn on the High Knob Lookout stone wall",
         "scope": "Historical area reference (2024). The source does not verify this individual map reference ID."
       },
@@ -13,7 +13,7 @@
         "path": "assets/photos/high-knob-overview.webp",
         "source": "https://fallout.fandom.com/wiki/File:FO76SV_High_Knob_Lookout_01.png",
         "credit": "LaymansReign / Fallout Wiki",
-        "license": "Game imagery \u00a9 Bethesda / ZeniMax \u00b7 fair-use reference, not an open license",
+        "license": "Game imagery © Bethesda / ZeniMax · fair-use reference, not an open license",
         "alt": "In-game overview of High Knob Lookout",
         "scope": "Historical area reference (2024). The source does not verify this individual map reference ID."
       }
@@ -28,10 +28,10 @@
         "tags": [
           "Bobblehead"
         ],
-        "scope": "Overview / far away \u00b7 Community submission; approved by lwiitablake",
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
         "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/2",
         "credit": "lwiitablake / community screenshot",
-        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
         "issue": 2
       },
       {
@@ -41,10 +41,10 @@
         "tags": [
           "Bobblehead"
         ],
-        "scope": "Approach / closer \u00b7 Community submission; approved by lwiitablake",
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
         "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/2",
         "credit": "lwiitablake / community screenshot",
-        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
         "issue": 2
       },
       {
@@ -54,10 +54,10 @@
         "tags": [
           "Bobblehead"
         ],
-        "scope": "Detail / up close \u00b7 Community submission; approved by lwiitablake",
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
         "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/2",
         "credit": "lwiitablake / community screenshot",
-        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
         "issue": 2
       }
     ]
@@ -72,10 +72,10 @@
           "Bobblehead",
           "Interior"
         ],
-        "scope": "Overview / far away \u00b7 Community submission; approved by lwiitablake",
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
         "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/3",
         "credit": "lwiitablake / community screenshot",
-        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
         "issue": 3
       },
       {
@@ -86,10 +86,10 @@
           "Bobblehead",
           "Interior"
         ],
-        "scope": "Approach / closer \u00b7 Community submission; approved by lwiitablake",
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
         "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/3",
         "credit": "lwiitablake / community screenshot",
-        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
         "issue": 3
       },
       {
@@ -100,11 +100,80 @@
           "Bobblehead",
           "Interior"
         ],
-        "scope": "Detail / up close \u00b7 Community submission; approved by lwiitablake",
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
         "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/3",
         "credit": "lwiitablake / community screenshot",
-        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
         "issue": 3
+      }
+    ]
+  },
+  "ref-00386CA7": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-4/1.webp",
+        "alt": "Outhouse",
+        "caption": "Outhouse",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/4",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 4
+      },
+      {
+        "path": "assets/photos/community/issue-4/2.webp",
+        "alt": "Outhouse, closer",
+        "caption": "Outhouse, closer",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/4",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 4
+      },
+      {
+        "path": "assets/photos/community/issue-4/3.webp",
+        "alt": "Outhouse, view inside",
+        "caption": "Outhouse, view inside",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/4",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 4
+      },
+      {
+        "path": "assets/photos/community/issue-4/4.webp",
+        "alt": "Outhouse, magazine",
+        "caption": "Outhouse, magazine",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/4",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 4
+      },
+      {
+        "path": "assets/photos/community/issue-4/5.webp",
+        "alt": "Tesla magazine",
+        "caption": "Magazine, picked up",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/4",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 4
       }
     ]
   }
