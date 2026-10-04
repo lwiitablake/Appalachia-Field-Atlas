@@ -22,7 +22,7 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
  const res=await fetch(`https://api.github.com/repos/${repo}/issues/${number}`,{headers:{Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json'}});
  if(!res.ok)throw Error(`GitHub returned ${res.status}`);
  const atlas=JSON.parse(readFileSync('data/atlas.json','utf8')),issue=await res.json();
- const entry=validateContribution(issue,new Set(atlas.records.map(r=>r.id)));
+ const entry=validateContribution(issue,new Set([...atlas.records.map(r=>r.id),...JSON.parse(readFileSync('data/interactable-ids.json','utf8'))]));
  const data=JSON.parse(readFileSync('data/community.json','utf8'));
  data.entries=data.entries.filter(e=>e.issue!==entry.issue);data.entries.push(entry);data.updated=new Date().toISOString();
  writeFileSync('data/community.json',JSON.stringify(data,null,2)+'\n');

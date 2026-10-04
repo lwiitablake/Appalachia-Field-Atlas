@@ -1,4 +1,4 @@
-export const RESOURCE_CATEGORIES=['bobblehead','magazine','caps','armor','fusion','lunchbox','cooler'];
+export const RESOURCE_CATEGORIES=['bobblehead','magazine','caps','armor','fusion','lunchbox','cooler','toiletpaper','plunger','safe','object','fish'];
 export function displayedRecords(records,spaces,entrances,{space,overworld=true,interiors=true}) {
  return records.flatMap(record=>{
   const interior=!spaces[record.space]?.world;

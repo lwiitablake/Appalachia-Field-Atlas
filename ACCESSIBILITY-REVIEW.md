@@ -51,3 +51,5 @@ Automated axe-core 4.10.3 scans with WCAG 2 A/AA and WCAG 2.1 A/AA tags: zero de
 Gray interior markers also use arrow badges and textual Inside/submap labels. Native labeled checkboxes independently select indoor and outdoor records; keyboard-accessible result buttons provide an alternative to pointer map markers. New container icons retain accessible category names in controls. Browser checks verified filtering, interior navigation, preserved photo gallery, map key, and no mobile horizontal overflow. White on the new #555b62 marker fill has contrast greater than 6:1.
 
 Limits: axe marks some image/map contrast and ARIA checks for manual review. Native iOS Safari, assistive-technology reading order and a complete manual WCAG audit were not performed. Automated results are not a certification of full WCAG 2.1 AA conformance. Previous release review notes follow.
+
+See QA-V3.3.10.md and qa/v3310-accessibility.json for the latest targeted review and remaining manual checks.

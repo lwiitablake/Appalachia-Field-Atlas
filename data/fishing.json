@@ -1,0 +1,586 @@
+{
+  "checked": "2026-10-04",
+  "species": [
+    {
+      "id": "7f0f51c43dc5",
+      "name": "Timber Sawgill",
+      "areas": [
+        "The Forest"
+      ],
+      "kind": "common",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "54e2e288f421",
+      "name": "Bloodwhisker",
+      "areas": [
+        "The Forest"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "7ebfbcc23c33",
+      "name": "Kanawha Piranha",
+      "areas": [
+        "The Forest"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "51171a7d58fc",
+      "name": "Glowing Kanawha Piranha",
+      "areas": [
+        "The Forest"
+      ],
+      "kind": "glowing",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "374e1a7dba36",
+      "name": "Sooty Sawgill",
+      "areas": [
+        "Ash Heap"
+      ],
+      "kind": "common",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "040aaf8579ae",
+      "name": "Ashen Ambusher",
+      "areas": [
+        "Ash Heap"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "f20b28a6eb6e",
+      "name": "Deathjaw",
+      "areas": [
+        "Ash Heap"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "dee3e4618dcc",
+      "name": "Glowing Ambusher",
+      "areas": [
+        "Ash Heap"
+      ],
+      "kind": "glowing",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "0e1c7d8479f1",
+      "name": "Noxious Sawgill",
+      "areas": [
+        "Toxic Valley"
+      ],
+      "kind": "common",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "6d3d0e7f0787",
+      "name": "Potbelly Kelt",
+      "areas": [
+        "Toxic Valley"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "f1256c7696a1",
+      "name": "Purple Radpole",
+      "areas": [
+        "Toxic Valley"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "13bc1459b33a",
+      "name": "Glowing Potbelly Kelt",
+      "areas": [
+        "Toxic Valley"
+      ],
+      "kind": "glowing",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "de3325e86cc6",
+      "name": "Alpine Sawgill",
+      "areas": [
+        "Savage Divide"
+      ],
+      "kind": "common",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "bac9dcd55c12",
+      "name": "Armored Spinefish",
+      "areas": [
+        "Savage Divide"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "94c8a66bcb8a",
+      "name": "Leatherback",
+      "areas": [
+        "Savage Divide"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "6eb814b892e9",
+      "name": "Glowing Spinefish",
+      "areas": [
+        "Savage Divide"
+      ],
+      "kind": "glowing",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "d805495f5727",
+      "name": "Muddy Sawgill",
+      "areas": [
+        "The Mire"
+      ],
+      "kind": "common",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "2d45cb0b73ba",
+      "name": "Gulpy",
+      "areas": [
+        "The Mire"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "f065fb7ed1f5",
+      "name": "Spikesnapper",
+      "areas": [
+        "The Mire"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "026c84038682",
+      "name": "Glowing Gulpy",
+      "areas": [
+        "The Mire"
+      ],
+      "kind": "glowing",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "d322da09e7b1",
+      "name": "Bog Sawgill",
+      "areas": [
+        "Cranberry Bog"
+      ],
+      "kind": "common",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "5588fb325c42",
+      "name": "Blisterfish",
+      "areas": [
+        "Cranberry Bog"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "47e00aeb1331",
+      "name": "Bog Lurker",
+      "areas": [
+        "Cranberry Bog"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "d25098a9b839",
+      "name": "Glowing Bog Lurker",
+      "areas": [
+        "Cranberry Bog"
+      ],
+      "kind": "glowing",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "4ea8db310ee9",
+      "name": "Static Sawgill",
+      "areas": [
+        "Skyline Valley"
+      ],
+      "kind": "common",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "72ed9932c443",
+      "name": "Bluefin Zapper",
+      "areas": [
+        "Skyline Valley"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "29e0250b6f49",
+      "name": "Stormswimmer",
+      "areas": [
+        "Skyline Valley"
+      ],
+      "kind": "uncommon",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "27c4ac6a2b39",
+      "name": "Glowing Stormswimmer",
+      "areas": [
+        "Skyline Valley"
+      ],
+      "kind": "glowing",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "a214730349cf",
+      "name": "Organ Grinder",
+      "areas": [
+        "Organ Cave West"
+      ],
+      "kind": "legend",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "86f9d3a60be5",
+      "name": "Ryl-Tkannoth, Maw-Begotten",
+      "areas": [
+        "Big Maw"
+      ],
+      "kind": "legend",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "9990406171fb",
+      "name": "Wavy Willard",
+      "areas": [
+        "Wavy Willard's Water Park"
+      ],
+      "kind": "legend",
+      "season": "year-round",
+      "source": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "month": null
+    },
+    {
+      "id": "1d57275fcb96",
+      "name": "Bog Sucker",
+      "areas": [
+        "The Forest",
+        "Ash Heap",
+        "Savage Divide"
+      ],
+      "kind": "seasonal",
+      "season": "winter",
+      "source": "https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html",
+      "month": null
+    },
+    {
+      "id": "0df97712e135",
+      "name": "Fernskipper",
+      "areas": [
+        "Cranberry Bog",
+        "The Mire",
+        "Skyline Valley"
+      ],
+      "kind": "seasonal",
+      "season": "summer",
+      "source": "https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html",
+      "month": null
+    },
+    {
+      "id": "5b6311c57972",
+      "name": "Fester Koi",
+      "areas": [
+        "Ash Heap",
+        "Toxic Valley",
+        "Burning Springs"
+      ],
+      "kind": "seasonal",
+      "season": "fall",
+      "source": "https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html",
+      "month": null
+    },
+    {
+      "id": "5d579475a5b8",
+      "name": "Orange Overseer",
+      "areas": [
+        "Savage Divide",
+        "Skyline Valley",
+        "Toxic Valley"
+      ],
+      "kind": "seasonal",
+      "season": "spring",
+      "source": "https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html",
+      "month": null
+    },
+    {
+      "id": "3b409248ccf9",
+      "name": "Sludge Eye",
+      "areas": [
+        "The Sludge Works"
+      ],
+      "kind": "legend",
+      "season": "fall",
+      "source": "https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html",
+      "month": null
+    },
+    {
+      "id": "14db0bce981c",
+      "name": "Glass Ghost",
+      "areas": [
+        "Glassed Cavern"
+      ],
+      "kind": "legend",
+      "season": "summer",
+      "source": "https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html",
+      "month": null
+    },
+    {
+      "id": "4d5771ad21ab",
+      "name": "Charcoal Axolotl",
+      "areas": [
+        "Burning Springs",
+        "Savage Divide"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 1
+    },
+    {
+      "id": "c4c97a9b5972",
+      "name": "Pink Axolotl",
+      "areas": [
+        "Cranberry Bog",
+        "The Forest"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 2
+    },
+    {
+      "id": "20e3716e150c",
+      "name": "Clay Axolotl",
+      "areas": [
+        "Skyline Valley",
+        "Toxic Valley"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 3
+    },
+    {
+      "id": "c079f48a5530",
+      "name": "Dotted Axolotl",
+      "areas": [
+        "The Mire",
+        "Burning Springs"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 4
+    },
+    {
+      "id": "8108fc6bf816",
+      "name": "Purple Axolotl",
+      "areas": [
+        "Skyline Valley",
+        "Cranberry Bog"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 5
+    },
+    {
+      "id": "43eec43b57e2",
+      "name": "Banded Axolotl",
+      "areas": [
+        "The Mire",
+        "Toxic Valley"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 6
+    },
+    {
+      "id": "6f9b23a25c92",
+      "name": "Scaled Axolotl",
+      "areas": [
+        "The Forest",
+        "Ash Heap"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 7
+    },
+    {
+      "id": "2446e2bca5c4",
+      "name": "Striped Axolotl",
+      "areas": [
+        "The Mire",
+        "Skyline Valley"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 8
+    },
+    {
+      "id": "e644e1b3f4a9",
+      "name": "Shadow Axolotl",
+      "areas": [
+        "Toxic Valley",
+        "Ash Heap"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 9
+    },
+    {
+      "id": "9ef81bbb8517",
+      "name": "Spotted Axolotl",
+      "areas": [
+        "Toxic Valley",
+        "Savage Divide"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 10
+    },
+    {
+      "id": "737f78c57fff",
+      "name": "Speckled Axolotl",
+      "areas": [
+        "The Forest",
+        "Cranberry Bog"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 11
+    },
+    {
+      "id": "726dd64a55f3",
+      "name": "Stone Axolotl",
+      "areas": [
+        "Ash Heap",
+        "Toxic Valley"
+      ],
+      "kind": "axolotl",
+      "season": "monthly",
+      "source": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "month": 12
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather",
+      "credit": "Bethesda / Kat DuchessFlame",
+      "scope": "Regional and Local Legend facts; short original guidance, no article prose or pictures copied."
+    },
+    {
+      "url": "https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html",
+      "credit": "Nuka Knights / skywalka",
+      "scope": "Monthly species/region schedule; factual summary only, no maps or pictures copied."
+    },
+    {
+      "url": "https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html",
+      "credit": "Nuka Knights / skywalka",
+      "scope": "Seasonal species and area facts; no article prose or pictures copied."
+    },
+    {
+      "url": "https://fallout.bethesda.net/en-US/news/fallout-76-the-slasher-release-notes",
+      "credit": "Bethesda",
+      "scope": "Fall fishing activation on September 22, 2026."
+    }
+  ]
+}

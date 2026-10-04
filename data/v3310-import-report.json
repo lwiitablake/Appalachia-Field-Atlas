@@ -1,0 +1,29 @@
+{
+  "baseline": "fe81934",
+  "checked": "2026-10-04",
+  "source": "https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2",
+  "direct": {
+    "toiletpaper": 515,
+    "plunger": 289,
+    "safe": 632
+  },
+  "catalogGroups": 4250,
+  "catalogRecords": 193581,
+  "excludedUnknownSpaces": 0,
+  "signatures": [
+    "MISC",
+    "CONT",
+    "ALCH",
+    "AMMO",
+    "ARMO",
+    "BOOK",
+    "NOTE",
+    "KEYM",
+    "WEAP",
+    "FLOR",
+    "FURN",
+    "TERM",
+    "DOOR",
+    "ACTI"
+  ]
+}

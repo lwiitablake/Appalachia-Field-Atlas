@@ -28,7 +28,7 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
  const api=async path=>{const r=await fetch(`https://api.github.com/repos/${repo}/${path}`,{headers:{Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json'}});if(!r.ok)throw Error(`GitHub API ${r.status}`);return r.json();};
  const users=JSON.parse(fs.readFileSync('moderators.json')).githubUsers,perm=await api(`collaborators/${actor}/permission`);
  if(!authorizedModerator(actor,users,perm.permission))throw Error('Moderator allowlist and repository write access are both required.');
- const issue=await api(`issues/${num}`),atlas=JSON.parse(fs.readFileSync('data/atlas.json')),p=validatePhotos(issue,new Set(atlas.records.map(r=>r.id))),hash=bodyHash(issue.body);
+ const issue=await api(`issues/${num}`),atlas=JSON.parse(fs.readFileSync('data/atlas.json')),p=validatePhotos(issue,new Set([...atlas.records.map(r=>r.id),...JSON.parse(fs.readFileSync('data/interactable-ids.json','utf8'))])),hash=bodyHash(issue.body);
  const summary=`Photo review for issue #${num}\n\nOpen https://github.com/${repo}/issues/${num} and inspect every image, caption, location, consent and private-information risk.\n\nPhotos: ${p.photos.length}\n\nReview hash: \`${hash}\`\n\nTo publish this exact issue body, rerun with publish=true and this review hash. A changed body is rejected.\n`;
  if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,summary);console.log(summary);
  if(process.env.PUBLISH!=='true')process.exit(0);

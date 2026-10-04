@@ -135,3 +135,16 @@ See [V3.2-CHANGES.md](V3.2-CHANGES.md#screenshot-rights-and-scope) for image-spe
 Lunch pails (494) and coolers (905) plus door-chain associations are extracted from the pinned [Mappalachia 2.0.5.2 release](https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2), game 1.7.26.13. Per-pin source links, form IDs and local coordinates are in the detail panel. Attribution: AHeroicLlama and Mappalachia contributors; underlying game data © Bethesda / ZeniMax. See [upstream licensing and disclaimer](https://github.com/AHeroicLlama/Mappalachia#licensing). This is not an open license for Bethesda assets.
 
 Container icons are original SVG artwork under the application GPL license. Placement descriptions are original coordinate-derived context. No new web screenshots or copied guide text were added. Research leads, permissions procedure and direct links: [Atlas Source Review](ATLAS-SOURCE-REVIEW.md).
+
+## v3.3.10 additions — reviewed October 4, 2026
+
+Toilet paper, plungers, safes and the optional named-object catalog are extracted from the same pinned Mappalachia 2.0.5.2 game database. Source signatures and stable reference IDs are retained. [Original release](https://github.com/AHeroicLlama/Mappalachia/releases/tag/2.0.5.2). Original SVG icons were drawn for this app.
+
+Fishing entries use factual species/region/rotation mappings and newly written concise guidance from the sources below. No article images or extended article prose were imported. Mappalachia regions and destination records supply approximate reference anchors, not surveyed cast coordinates. The guide distinguishes monthly rotations and game seasons. Each entry links its original information source.
+
+- [Bethesda / Kat DuchessFlame](https://fallout.bethesda.net/en-US/news/whats-biting-a-guide-to-fish-bait-and-weather)
+- [Nuka Knights / skywalka](https://nukaknights.com/articles/catch-axolotl-all-regions-and-months-incl-map.html)
+- [Nuka Knights / skywalka](https://nukaknights.com/articles/seasonal-fish-new-local-legend-new-recipes-and-challenges.html)
+- [Bethesda](https://fallout.bethesda.net/en-US/news/fallout-76-the-slasher-release-notes)
+
+Existing software, editorial text, contributor screenshots and Bethesda game assets retain their separate rights; the site license does not override them. Attribution is not a substitute for permission.

@@ -13,6 +13,8 @@ try{
 lines.push('','## Content inventory');
 const counts={};for(const r of atlas.records)counts[r.category]=(counts[r.category]||0)+1;
 for(const [category,count] of Object.entries(counts))lines.push(`- ${category}: ${count}`);
+const catalog=await read('data/interactables.json'), fishing=await read('data/fishing.json');
+lines.push(`- Additional selectable item groups: ${catalog.length}; placed records: ${catalog.reduce((n,g)=>n+g.count,0)}`,`- Fishing species: ${fishing.species.length}; reviewed ${fishing.checked}. Recheck seasonal and monthly schedules manually.`);
 lines.push('','## Missing documentation');
 for(const category of Object.keys(counts)){
  const records=atlas.records.filter(r=>r.category===category);lines.push(`- ${category}: ${records.filter(r=>!details[r.id]?.photos?.length).length} without a spot photograph.`);

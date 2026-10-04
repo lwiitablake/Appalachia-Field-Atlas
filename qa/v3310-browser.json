@@ -1,0 +1,15 @@
+{
+  "errors": [],
+  "checks": [
+    "default interiors off",
+    "toilet paper checkbox",
+    "lazy teddy bear positions",
+    "fish species + season",
+    "fish source guidance",
+    "edge arrows both directions",
+    "controls directly below image",
+    "image zoom",
+    "mobile arrows",
+    "no mobile overflow"
+  ]
+}

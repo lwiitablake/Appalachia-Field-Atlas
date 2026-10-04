@@ -1,4 +1,9 @@
 export const CATEGORIES = {
+  toiletpaper:{name:'Toilet paper',singular:'Toilet paper',symbol:'TP',color:'#5d6270'},
+  plunger:{name:'Plungers',singular:'Plunger',symbol:'P',color:'#854b32'},
+  safe:{name:'Safes',singular:'Safe',symbol:'S',color:'#435c70'},
+  object:{name:'Selected interactables',singular:'Placed object',symbol:'I',color:'#5f6141'},
+  fish:{name:'Fishing areas',singular:'Fishing area',symbol:'F',color:'#246c79'},
   bobblehead: {name:'Bobbleheads',singular:'Bobblehead',symbol:'B',color:'#ae542a'},
   magazine: {name:'Magazines',singular:'Magazine',symbol:'M',color:'#31727a'},
   lunchbox: {name:'Lunch pails',singular:'Lunch pail',symbol:'L',color:'#78582d'},
