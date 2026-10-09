@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "reports": [
+    {
+      "name": "owner connection",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "owner photo form desktop",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "owner photo form mobile",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "upload success mobile",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "liveGitHubWrite": false,
+  "checks": [
+    "mock owner verification",
+    "token field cleared",
+    "WebP upload",
+    "metadata + photo one branch",
+    "PR link",
+    "no issue or workflow calls",
+    "no stored token",
+    "reload disconnects"
+  ]
+}

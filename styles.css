@@ -68,3 +68,5 @@ input::placeholder,textarea::placeholder{color:#58685f;opacity:1}
 
 /* Results travel with the search/checklist that changed the selection. */
 #discovery-results{flex:none;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:18px}#discovery-results .results{max-height:260px;min-height:0;overflow:auto;flex:none}#discovery-results .results-heading{margin-top:12px}#discovery-results .results:empty{display:none}
+
+#owner-token{display:block;width:100%;margin:8px 0 14px}#owner-status{margin-top:12px}.masthead nav{flex-wrap:wrap}#photo-next a{display:inline-block;margin:10px 0;padding:10px;border:1px solid currentColor;border-radius:6px}

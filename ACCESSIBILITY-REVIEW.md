@@ -53,3 +53,5 @@ Gray interior markers also use arrow badges and textual Inside/submap labels. Na
 Limits: axe marks some image/map contrast and ARIA checks for manual review. Native iOS Safari, assistive-technology reading order and a complete manual WCAG audit were not performed. Automated results are not a certification of full WCAG 2.1 AA conformance. Previous release review notes follow.
 
 See QA-V3.3.10.md and qa/v3310-accessibility.json for the latest targeted review and remaining manual checks.
+
+Latest owner uploader checks: QA-V3.3.13.md and qa/v3313-accessibility.json.

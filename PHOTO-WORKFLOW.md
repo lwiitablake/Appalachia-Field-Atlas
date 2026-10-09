@@ -49,3 +49,6 @@ Sources: [GitHub file attachments](https://docs.github.com/en/get-started/writin
 Photo selection also supports dropping files onto the outlined area. Browse files remains available for keyboard and touch users. New batches append to the current photo set and preserve captions, tags and alt text; invalid selections preserve the existing draft. Dropping files only creates local previews, not a GitHub upload.
 
 Batch editor: add up to eight photos per location, in one or several batches. Each image requires at least one subject tag, a visible caption, and separate alt text. Choose the distance/view and use Move earlier, Move later, or Remove photo to curate the set. Location notes apply to the whole set. New metadata uses schema 2; older schema 1 submissions remain reviewable. Published galleries show captions and tags and use the separate alt text for the image description. Attach originals in the final displayed order in GitHub. Drafts remain in memory until downloaded and are not automatically restored after closing/reloading.
+
+## Owner direct upload (v3.3.13)
+Use Owner upload to connect a repository-scoped token, then Submit photos & notes at a location. This creates a review branch/PR with the image files included. Merge on GitHub to publish. See START-HERE-V3.3.13.md. The issue-based process remains for visitors without an owner connection.
