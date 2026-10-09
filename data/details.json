@@ -483,5 +483,48 @@
         "issue": 12
       }
     ]
+  },
+  "ref-0030877D": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-13/1.webp",
+        "alt": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "caption": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/13",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 13
+      },
+      {
+        "path": "assets/photos/community/issue-13/2.webp",
+        "alt": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "caption": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/13",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 13
+      },
+      {
+        "path": "assets/photos/community/issue-13/3.webp",
+        "alt": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "caption": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/13",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 13
+      }
+    ]
   }
 }
