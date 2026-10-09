@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "reports": [
+    {
+      "name": "desktop selected pickups",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "mobile pickup checklist",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    }
+  ],
+  "checks": [
+    "both named foods display positions",
+    "independent multiple selections",
+    "normalized search",
+    "selected only",
+    "clear removes positions",
+    "pagination",
+    "category filter",
+    "off after reload",
+    "mobile overflow"
+  ]
+}

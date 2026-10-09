@@ -1,4 +1,4 @@
-import {mountItemCatalog} from './item-catalog.js';
+import {mountItemCatalog,PICKUP_SIGNATURES} from './item-catalog.js';
 import {fishingHTML,matchesFishing} from './fishing.js';
 import {displayedRecords} from './interior-resources.js';
 import {createPhotoOrganizer} from './photo-organizer.js';
@@ -302,7 +302,7 @@ async function start(){
     const responses=await Promise.all([fetch('data/atlas.json?v='+VERSION,{cache:'no-store'}),fetch('data/guides.json?v='+VERSION,{cache:'no-store'}),fetch('data/details.json?v='+VERSION,{cache:'no-store'}),fetch('data/community.json?v='+VERSION,{cache:'no-store'}),fetch('site-config.json?v='+VERSION,{cache:'no-store'}),fetch('data/regions.json?v='+VERSION,{cache:'no-store'}),fetch('data/interior-entrances.json?v='+VERSION,{cache:'no-store'}),fetch('data/interactables.json?v='+VERSION,{cache:'no-store'}),fetch('data/fishing.json?v='+VERSION,{cache:'no-store'})]);
     if(responses.some(r=>!r.ok))throw Error('The atlas files could not be loaded.');
     [atlas,guides,details,community,siteConfig,regions,entrances,itemCatalog,fishingData]=await Promise.all(responses.map(r=>r.json()));
-    mountItemCatalog($('#item-catalog'),itemCatalog,{load:async item=>{if(loadedItems.has(item.id))return;const res=await fetch('data/interactables/'+item.id+'.json');if(!res.ok)throw Error('Could not load item positions. Try again.');loadedItems.set(item.id,await res.json());},toggle:(id,on)=>{if(on)selectedItems.add(id);else selectedItems.delete(id);if(!filters.categories.includes('object'))filters.categories.push('object');render();},onError:e=>toast(e.message)});
+    for(const [target,items] of [['#pickup-catalog',itemCatalog.filter(i=>PICKUP_SIGNATURES.includes(i.signature))],['#item-catalog',itemCatalog.filter(i=>!PICKUP_SIGNATURES.includes(i.signature))]])mountItemCatalog($(target),items,{load:async item=>{if(loadedItems.has(item.id))return;const res=await fetch('data/interactables/'+item.id+'.json');if(!res.ok)throw Error('Could not load item positions. Try again.');loadedItems.set(item.id,await res.json());},toggle:(id,on)=>{if(on)selectedItems.add(id);else selectedItems.delete(id);if(!filters.categories.includes('object'))filters.categories.push('object');render();},onError:e=>toast(e.message)});
     $('#fish-type').innerHTML='<option value="all">All fish</option>'+fishingData.species.map(s=>`<option value="${esc(s.id)}">${esc(s.name)}</option>`).join('');
     for(const key of ['type','season'])$('#fish-'+key).onchange=e=>{if(key==='type')fishType=e.target.value;else fishSeason=e.target.value;if(!filters.categories.includes('fish'))filters.categories.push('fish');render();};
     if(vault)vault.validate=p=>{validateProgress(p);if(p.custom.some(r=>!atlas.spaces[r.space]))throw Error('This journal contains a personal marker for a map absent from this atlas edition. Use the matching edition to restore it.');return p;};
