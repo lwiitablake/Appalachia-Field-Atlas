@@ -440,5 +440,48 @@
         "issue": 11
       }
     ]
+  },
+  "ref-0030877B": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-12/1.webp",
+        "alt": "Lockers near the pool.",
+        "caption": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/12",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 12
+      },
+      {
+        "path": "assets/photos/community/issue-12/2.webp",
+        "alt": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "caption": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/12",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 12
+      },
+      {
+        "path": "assets/photos/community/issue-12/3.webp",
+        "alt": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "caption": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/12",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 12
+      }
+    ]
   }
 }
