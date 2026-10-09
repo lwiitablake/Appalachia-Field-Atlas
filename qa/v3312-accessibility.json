@@ -1,0 +1,28 @@
+{
+  "errors": [],
+  "reports": [
+    {
+      "name": "desktop checklist results and terrain blend",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "mobile search results",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    }
+  ],
+  "checks": [
+    "results follow main search and checklist",
+    "0/50 percent blend",
+    "terrain remains opaque",
+    "no duplicate underlays",
+    "mobile overflow"
+  ]
+}
