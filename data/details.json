@@ -741,5 +741,48 @@
         "issue": 20
       }
     ]
+  },
+  "ref-005910CE": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-21/1.webp",
+        "alt": "Magazine on the table inside the round metal structure.",
+        "caption": "Magazine on the table inside the round metal structure.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/21",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 21
+      },
+      {
+        "path": "assets/photos/community/issue-21/2.webp",
+        "alt": "Magazine on the table inside the round metal structure.",
+        "caption": "Magazine on the table inside the round metal structure.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/21",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 21
+      },
+      {
+        "path": "assets/photos/community/issue-21/3.webp",
+        "alt": "Magazine on the table inside the round metal structure.",
+        "caption": "Magazine on the table inside the round metal structure.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/21",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 21
+      }
+    ]
   }
 }
