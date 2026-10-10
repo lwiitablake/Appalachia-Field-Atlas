@@ -655,5 +655,48 @@
         "issue": 18
       }
     ]
+  },
+  "ref-0051173A": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-19/1.webp",
+        "alt": "Inside the tent, on top of the metal storage crate.",
+        "caption": "Inside the tent, on top of the metal storage crate.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/19",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 19
+      },
+      {
+        "path": "assets/photos/community/issue-19/2.webp",
+        "alt": "Inside the tent, on top of the metal storage crate.",
+        "caption": "Inside the tent, on top of the metal storage crate.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/19",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 19
+      },
+      {
+        "path": "assets/photos/community/issue-19/3.webp",
+        "alt": "Inside the tent, on top of the metal storage crate.",
+        "caption": "Inside the tent, on top of the metal storage crate.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/19",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 19
+      }
+    ]
   }
 }
