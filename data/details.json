@@ -440,5 +440,48 @@
         "issue": 11
       }
     ]
+  },
+  "ref-005AD107": {
+    "photos": [
+      {
+        "path": "assets/photos/community/upload-6b072433-2852-4371-bb72-a42aee6650c3/1.webp",
+        "alt": "Bobblehead on top of the trailer",
+        "caption": "Bobblehead on top of the trailer",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Owner submission; publication requires pull-request merge",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/tree/main/assets/photos/community/upload-6b072433-2852-4371-bb72-a42aee6650c3",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "upload": "6b072433-2852-4371-bb72-a42aee6650c3"
+      },
+      {
+        "path": "assets/photos/community/upload-6b072433-2852-4371-bb72-a42aee6650c3/2.webp",
+        "alt": "Bobblehead on top of the trailer",
+        "caption": "Bobblehead on top of the trailer",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Owner submission; publication requires pull-request merge",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/tree/main/assets/photos/community/upload-6b072433-2852-4371-bb72-a42aee6650c3",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "upload": "6b072433-2852-4371-bb72-a42aee6650c3"
+      },
+      {
+        "path": "assets/photos/community/upload-6b072433-2852-4371-bb72-a42aee6650c3/3.webp",
+        "alt": "Bobblehead on top of the trailer",
+        "caption": "Bobblehead on top of the trailer",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Owner submission; publication requires pull-request merge",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/tree/main/assets/photos/community/upload-6b072433-2852-4371-bb72-a42aee6650c3",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "upload": "6b072433-2852-4371-bb72-a42aee6650c3"
+      }
+    ]
   }
 }
