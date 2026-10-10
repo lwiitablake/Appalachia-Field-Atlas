@@ -784,5 +784,48 @@
         "issue": 21
       }
     ]
+  },
+  "ref-008285A2": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-22/1.webp",
+        "alt": "Up in the rafters inside the shed.",
+        "caption": "Up in the rafters inside the shed.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/22",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 22
+      },
+      {
+        "path": "assets/photos/community/issue-22/2.webp",
+        "alt": "Up in the rafters inside the shed.",
+        "caption": "Up in the rafters inside the shed.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/22",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 22
+      },
+      {
+        "path": "assets/photos/community/issue-22/3.webp",
+        "alt": "Up in the rafters inside the shed.",
+        "caption": "Up in the rafters inside the shed.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/22",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 22
+      }
+    ]
   }
 }
