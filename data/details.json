@@ -612,5 +612,48 @@
         "issue": 17
       }
     ]
+  },
+  "ref-0051173B": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-18/1.webp",
+        "alt": "In the tent next to the satellite dish. On top of the crates next to the broken computer.",
+        "caption": "In the tent next to the satellite dish. On top of the crates next to the broken computer.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/18",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 18
+      },
+      {
+        "path": "assets/photos/community/issue-18/2.webp",
+        "alt": "In the tent next to the satellite dish. On top of the crates next to the broken computer.",
+        "caption": "In the tent next to the satellite dish. On top of the crates next to the broken computer.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/18",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 18
+      },
+      {
+        "path": "assets/photos/community/issue-18/3.webp",
+        "alt": "In the tent next to the satellite dish. On top of the crates next to the broken computer.",
+        "caption": "In the tent next to the satellite dish. On top of the crates next to the broken computer.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/18",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 18
+      }
+    ]
   }
 }
