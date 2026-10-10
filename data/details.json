@@ -526,5 +526,48 @@
         "issue": 15
       }
     ]
+  },
+  "ref-0037CFAC": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-16/1.webp",
+        "alt": "Bobblehead on cart.",
+        "caption": "Bobblehead on cart.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/16",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 16
+      },
+      {
+        "path": "assets/photos/community/issue-16/2.webp",
+        "alt": "Bobblehead on cart.",
+        "caption": "Bobblehead on cart.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/16",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 16
+      },
+      {
+        "path": "assets/photos/community/issue-16/3.webp",
+        "alt": "Bobblehead on cart.",
+        "caption": "Bobblehead on cart.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/16",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 16
+      }
+    ]
   }
 }
