@@ -483,5 +483,48 @@
         "upload": "6b072433-2852-4371-bb72-a42aee6650c3"
       }
     ]
+  },
+  "ref-003E1908": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-15/1.webp",
+        "alt": "Cultist bedroom upstairs.",
+        "caption": "Cultist bedroom upstairs.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/15",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 15
+      },
+      {
+        "path": "assets/photos/community/issue-15/2.webp",
+        "alt": "Cultist bedroom upstairs.",
+        "caption": "Cultist bedroom upstairs.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/15",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 15
+      },
+      {
+        "path": "assets/photos/community/issue-15/3.webp",
+        "alt": "Cultist bedroom upstairs.",
+        "caption": "Cultist bedroom upstairs.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/15",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 15
+      }
+    ]
   }
 }
