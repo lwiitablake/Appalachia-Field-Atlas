@@ -698,5 +698,48 @@
         "issue": 19
       }
     ]
+  },
+  "ref-005910CC": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-20/1.webp",
+        "alt": "Inside the cage on the ground in the back right corner.",
+        "caption": "Inside the cage on the ground in the back right corner.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/20",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 20
+      },
+      {
+        "path": "assets/photos/community/issue-20/2.webp",
+        "alt": "Inside the cage on the ground in the back right corner.",
+        "caption": "Inside the cage on the ground in the back right corner.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/20",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 20
+      },
+      {
+        "path": "assets/photos/community/issue-20/3.webp",
+        "alt": "Inside the cage on the ground in the back right corner.",
+        "caption": "Inside the cage on the ground in the back right corner.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/20",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 20
+      }
+    ]
   }
 }
