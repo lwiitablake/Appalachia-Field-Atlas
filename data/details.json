@@ -569,5 +569,48 @@
         "issue": 16
       }
     ]
+  },
+  "ref-00851465": {
+    "photos": [
+      {
+        "path": "assets/photos/community/issue-17/1.webp",
+        "alt": "Train station watchtower. On the desk directly across from the doorway.",
+        "caption": "Train station watchtower. On the desk directly across from the doorway.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/17",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 17
+      },
+      {
+        "path": "assets/photos/community/issue-17/2.webp",
+        "alt": "Train station watchtower. On the desk directly across from the doorway.",
+        "caption": "Train station watchtower. On the desk directly across from the doorway.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/17",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 17
+      },
+      {
+        "path": "assets/photos/community/issue-17/3.webp",
+        "alt": "Train station watchtower. On the desk directly across from the doorway.",
+        "caption": "Train station watchtower. On the desk directly across from the doorway.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/17",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "issue": 17
+      }
+    ]
   }
 }
