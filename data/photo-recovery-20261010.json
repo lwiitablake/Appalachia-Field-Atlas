@@ -1,0 +1,133 @@
+{
+  "id": "2026-10-10-wavy-willards",
+  "photos": [
+    {
+      "recordId": "ref-0030877B",
+      "area": "Wavy Willard's Water Park",
+      "photo": {
+        "path": "assets/photos/community/issue-12/1.webp",
+        "alt": "Lockers near the pool.",
+        "caption": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away \u00b7 Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/12",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "issue": 12
+      },
+      "fileExists": true
+    },
+    {
+      "recordId": "ref-0030877B",
+      "area": "Wavy Willard's Water Park",
+      "photo": {
+        "path": "assets/photos/community/issue-12/2.webp",
+        "alt": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "caption": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer \u00b7 Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/12",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "issue": 12
+      },
+      "fileExists": true
+    },
+    {
+      "recordId": "ref-0030877B",
+      "area": "Wavy Willard's Water Park",
+      "photo": {
+        "path": "assets/photos/community/issue-12/3.webp",
+        "alt": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "caption": "Lockers near the pool. Look at the locker under the \"L.\"",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close \u00b7 Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/12",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "issue": 12
+      },
+      "fileExists": true
+    },
+    {
+      "recordId": "ref-0030877D",
+      "area": "Wavy Willard's Water Park",
+      "photo": {
+        "path": "assets/photos/community/issue-13/1.webp",
+        "alt": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "caption": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Overview / far away \u00b7 Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/13",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "issue": 13
+      },
+      "fileExists": true
+    },
+    {
+      "recordId": "ref-0030877D",
+      "area": "Wavy Willard's Water Park",
+      "photo": {
+        "path": "assets/photos/community/issue-13/2.webp",
+        "alt": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "caption": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Approach / closer \u00b7 Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/13",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "issue": 13
+      },
+      "fileExists": true
+    },
+    {
+      "recordId": "ref-0030877D",
+      "area": "Wavy Willard's Water Park",
+      "photo": {
+        "path": "assets/photos/community/issue-13/3.webp",
+        "alt": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "caption": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+        "tags": [
+          "Magazine"
+        ],
+        "scope": "Detail / up close \u00b7 Community submission; approved by lwiitablake",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/13",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery \u00a9 Bethesda / ZeniMax",
+        "issue": 13
+      },
+      "fileExists": true
+    }
+  ],
+  "comments": [
+    {
+      "issue": 12,
+      "recordId": "ref-0030877B",
+      "type": "comment",
+      "text": "Lockers near the pool. Look at the locker under the \"L.\"",
+      "author": "lwiitablake",
+      "url": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/12",
+      "date": "2026-10-09T21:59:38Z"
+    },
+    {
+      "issue": 13,
+      "recordId": "ref-0030877D",
+      "type": "comment",
+      "text": "Underground corridor and rooms at Wavy Willard's. On a table near a stack of crates.",
+      "author": "lwiitablake",
+      "url": "https://github.com/lwiitablake/Appalachia-Field-Atlas/issues/13",
+      "date": "2026-10-09T22:12:04Z"
+    }
+  ]
+}

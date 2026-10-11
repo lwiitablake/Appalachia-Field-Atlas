@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
       issues: read
@@ -23,6 +23,8 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: main
+      - name: Restore confirmed missing photo links once
+        run: node scripts/restore-photo-links.mjs
       - name: Import explicitly approved issue
         if: github.event_name == 'workflow_dispatch' && inputs.issue_number != ''
         env:
@@ -32,21 +34,27 @@ jobs:
       - name: Validate atlas before publishing
         run: node --test tests/*.test.mjs
       - name: Commit approved community data
-        if: github.event_name == 'workflow_dispatch' && inputs.issue_number != ''
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/community.json
+          git add data/community.json data/details.json data/photo-recoveries-applied.json
           if ! git diff --cached --quiet; then
             git commit -m 'Publish reviewed atlas contribution'
             git push origin HEAD:main
           fi
-      - uses: actions/upload-pages-artifact@v4
+      - name: Stamp published update date
+        run: node scripts/stamp-deployment.mjs
+      - name: Package Pages artifact
+        run: tar --dereference --hard-dereference --exclude=.git --exclude=.github -cf "$RUNNER_TEMP/artifact.tar" .
+      - uses: actions/upload-artifact@v6
         with:
-          path: '.'
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       pages: write
       id-token: write
@@ -56,4 +64,4 @@ jobs:
     steps:
       - name: Deploy GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

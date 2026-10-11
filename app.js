@@ -1,3 +1,4 @@
+import {loadDeploymentInfo} from './deployment-info.js';
 import {ownerConnectionDialog} from './github-owner.js';
 import {mountItemCatalog,PICKUP_SIGNATURES} from './item-catalog.js';
 import {fishingHTML,matchesFishing} from './fishing.js';
@@ -316,7 +317,9 @@ async function start(){
     $('#fish-type').innerHTML='<option value="all">All fish</option>'+fishingData.species.map(s=>`<option value="${esc(s.id)}">${esc(s.name)}</option>`).join('');
     for(const key of ['type','season'])$('#fish-'+key).onchange=e=>{if(key==='type')fishType=e.target.value;else fishSeason=e.target.value;if(!filters.categories.includes('fish'))filters.categories.push('fish');render();};
     if(vault)vault.validate=p=>{validateProgress(p);if(p.custom.some(r=>!atlas.spaces[r.space]))throw Error('This journal contains a personal marker for a map absent from this atlas edition. Use the matching edition to restore it.');return p;};
-    $('#edition').textContent=`V${VERSION} · ${atlas.meta.released} / ${atlas.meta.gameVersion}`;
+    $('#edition').textContent=`V${VERSION} · Checking update date…`;
+    loadDeploymentInfo(VERSION,$('#edition'));
+    $('#data-edition').textContent=`Game data: ${atlas.meta.released} / ${atlas.meta.gameVersion}`;
     $('#world').innerHTML=['appalachia','atlantic-city','the-pitt','directory'].map(id=>{const r=regions.find(r=>r.id===id);return `<option value="${id}">${id==='appalachia'?'Appalachia':esc(r.name)}</option>`;}).join('');
     $('#region').innerHTML=regions.filter(r=>r.id==='appalachia'||r.bounds).map(r=>`<option value="${r.id}">${r.id==='appalachia'?'All Appalachia regions':esc(r.name)}</option>`).join('');fillSpaces();
     map=L.map('map',{crs:L.CRS.Simple,minZoom:-4,maxZoom:5,zoomSnap:.25,preferCanvas:true,attributionControl:true});
