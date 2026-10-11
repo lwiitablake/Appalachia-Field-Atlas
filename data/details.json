@@ -913,5 +913,48 @@
         "issue": 13
       }
     ]
+  },
+  "ref-005910CD": {
+    "photos": [
+      {
+        "path": "assets/photos/community/upload-0e7144a6-5035-43e3-ab40-0b4843e8b5c7/1.webp",
+        "alt": "Look on the lower level of the cart.",
+        "caption": "Look on the lower level of the cart.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Overview / far away · Owner submission; publication requires pull-request merge",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/tree/main/assets/photos/community/upload-0e7144a6-5035-43e3-ab40-0b4843e8b5c7",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "upload": "0e7144a6-5035-43e3-ab40-0b4843e8b5c7"
+      },
+      {
+        "path": "assets/photos/community/upload-0e7144a6-5035-43e3-ab40-0b4843e8b5c7/2.webp",
+        "alt": "Look on the lower level of the cart.",
+        "caption": "Look on the lower level of the cart.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Approach / closer · Owner submission; publication requires pull-request merge",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/tree/main/assets/photos/community/upload-0e7144a6-5035-43e3-ab40-0b4843e8b5c7",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "upload": "0e7144a6-5035-43e3-ab40-0b4843e8b5c7"
+      },
+      {
+        "path": "assets/photos/community/upload-0e7144a6-5035-43e3-ab40-0b4843e8b5c7/3.webp",
+        "alt": "Look on the lower level of the cart.",
+        "caption": "Look on the lower level of the cart.",
+        "tags": [
+          "Bobblehead"
+        ],
+        "scope": "Detail / up close · Owner submission; publication requires pull-request merge",
+        "source": "https://github.com/lwiitablake/Appalachia-Field-Atlas/tree/main/assets/photos/community/upload-0e7144a6-5035-43e3-ab40-0b4843e8b5c7",
+        "credit": "lwiitablake / community screenshot",
+        "license": "Contributor consent for noncommercial reference; game imagery © Bethesda / ZeniMax",
+        "upload": "0e7144a6-5035-43e3-ab40-0b4843e8b5c7"
+      }
+    ]
   }
 }
